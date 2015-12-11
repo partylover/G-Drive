@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : RGB_GAMMA_SCH.vf
+// /___/   /\     Timestamp : 02/20/2014 12:02:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/RGB_GAMMA_SCH.vf -w D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/RGB_GAMMA_SCH.sch
+//Design Name: RGB_GAMMA_SCH
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module RGB_GAMMA_SCH(CLK, 
+                     CLK_IN, 
+                     GAMMA, 
+                     RGB_IN, 
+                     WE, 
+                     RGB_OUT);
+
+    input CLK;
+    input CLK_IN;
+    input [23:0] GAMMA;
+    input [23:0] RGB_IN;
+    input [0:0] WE;
+   output [47:0] RGB_OUT;
+   
+   
+   core_gamma_table  gamma_table_B_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[7:0]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[15:0]));
+   core_gamma_table  gamma_table_G_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[15:8]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[31:16]));
+   core_gamma_table  gamma_table_R_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[23:16]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[47:32]));
+endmodule

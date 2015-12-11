@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ETH_Drive">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-5-19T4:53:13</timestamp>
+    <pin polarity="Input" x="0" y="32" name="CLK_125M" />
+    <pin polarity="Input" x="0" y="-736" name="RX_CLK" />
+    <pin polarity="Input" x="0" y="-768" name="RX_DV" />
+    <pin polarity="Input" x="0" y="-800" name="PHY_RX(7:0)" />
+    <pin polarity="Input" x="0" y="0" name="CONFIG_ETH(31:0)" />
+    <pin polarity="Input" x="464" y="-96" name="DATA_WB_I(23:0)" />
+    <pin polarity="Input" x="0" y="-640" name="RX_DV2" />
+    <pin polarity="Input" x="0" y="-672" name="PHY_RXD2(7:0)" />
+    <pin polarity="Input" x="0" y="-608" name="RX_CLK2" />
+    <pin polarity="Input" x="0" y="64" name="RESET" />
+    <pin polarity="Output" x="464" y="-240" name="DIMMER(4:0)" />
+    <pin polarity="Output" x="464" y="-16" name="PAGE" />
+    <pin polarity="Output" x="464" y="-64" name="WB_EEP_WR" />
+    <pin polarity="Output" x="464" y="-272" name="WR_GAMMA" />
+    <pin polarity="Output" x="464" y="-304" name="DATA_GAMMA(23:0)" />
+    <pin polarity="Output" x="464" y="-160" name="DATA_WB(23:0)" />
+    <pin polarity="Output" x="464" y="-192" name="ADD_WB(7:0)" />
+    <pin polarity="Output" x="464" y="-128" name="WR_WB" />
+    <pin polarity="Output" x="464" y="-496" name="PHY_RESET" />
+    <pin polarity="Output" x="464" y="176" name="DB5" />
+    <pin polarity="Output" x="464" y="208" name="DB6" />
+    <pin polarity="Output" x="464" y="240" name="DB7" />
+    <pin polarity="Output" x="464" y="272" name="DB8" />
+    <pin polarity="Output" x="464" y="-608" name="GTX_CLK2" />
+    <pin polarity="Output" x="464" y="-672" name="PHY_TXD2(7:0)" />
+    <pin polarity="Output" x="464" y="-640" name="TX_EN2" />
+    <pin polarity="Output" x="464" y="80" name="DB2" />
+    <pin polarity="Output" x="464" y="-528" name="PHY_MDIO" />
+    <pin polarity="Output" x="464" y="-560" name="PHY_MDC" />
+    <pin polarity="Output" x="464" y="-432" name="ADDRESS(13:0)" />
+    <pin polarity="Output" x="464" y="-400" name="DATA(23:0)" />
+    <pin polarity="Output" x="464" y="-368" name="WE" />
+    <pin polarity="Output" x="464" y="48" name="DB_1" />
+    <pin polarity="Output" x="464" y="-736" name="GTX_CLK" />
+    <pin polarity="Output" x="464" y="-800" name="PHY_TXD(7:0)" />
+    <pin polarity="Output" x="464" y="-768" name="TX_EN" />
+    <pin polarity="Output" x="464" y="112" name="DB3" />
+    <pin polarity="Output" x="464" y="144" name="DB4" />
+    <pin polarity="Output" x="464" y="16" name="BLINK_OUT" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="244" y="-824" type="symbol" />
+        <attrtext attrname="PinName" x="72" y="32" type="pin CLK_125M" />
+        <attrtext attrname="PinName" x="72" y="-736" type="pin RX_CLK" />
+        <attrtext attrname="PinName" x="72" y="-768" type="pin RX_DV" />
+        <attrtext attrname="PinName" x="72" y="-800" type="pin PHY_RX(7:0)" />
+        <attrtext attrname="PinName" x="72" y="0" type="pin CONFIG_ETH(31:0)" />
+        <attrtext attrname="PinName" x="264" y="-96" type="pin DATA_WB_I(23:0)" />
+        <attrtext attrname="PinName" x="72" y="-640" type="pin RX_DV2" />
+        <attrtext attrname="PinName" x="72" y="-672" type="pin PHY_RXD2(7:0)" />
+        <attrtext attrname="PinName" x="72" y="-608" type="pin RX_CLK2" />
+        <attrtext attrname="PinName" x="72" y="64" type="pin RESET" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-240" type="pin DIMMER(4:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-16" type="pin PAGE" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-64" type="pin WB_EEP_WR" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-272" type="pin WR_GAMMA" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-304" type="pin DATA_GAMMA(23:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-160" type="pin DATA_WB(23:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-192" type="pin ADD_WB(7:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-128" type="pin WR_WB" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-496" type="pin PHY_RESET" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="176" type="pin DB5" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="208" type="pin DB6" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="240" type="pin DB7" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="272" type="pin DB8" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-608" type="pin GTX_CLK2" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-672" type="pin PHY_TXD2(7:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-640" type="pin TX_EN2" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="80" type="pin DB2" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-528" type="pin PHY_MDIO" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-560" type="pin PHY_MDC" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-432" type="pin ADDRESS(13:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-400" type="pin DATA(23:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-368" type="pin WE" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="48" type="pin DB_1" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-736" type="pin GTX_CLK" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-800" type="pin PHY_TXD(7:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="-768" type="pin TX_EN" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="112" type="pin DB3" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="144" type="pin DB4" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="392" y="16" type="pin BLINK_OUT" />
+        <rect width="64" x="400" y="-412" height="24" />
+        <line x2="464" y1="-400" y2="-400" x1="400" />
+        <rect width="64" x="400" y="-444" height="24" />
+        <line x2="464" y1="-432" y2="-432" x1="400" />
+        <line x2="464" y1="-368" y2="-368" x1="400" />
+        <line x2="464" y1="-496" y2="-496" x1="400" />
+        <rect width="64" x="400" y="-316" height="24" />
+        <line x2="464" y1="-304" y2="-304" x1="400" />
+        <line x2="464" y1="-272" y2="-272" x1="400" />
+        <rect width="64" x="400" y="-252" height="24" />
+        <line x2="464" y1="-240" y2="-240" x1="400" />
+        <rect width="64" x="0" y="-812" height="24" />
+        <line x2="0" y1="-800" y2="-800" x1="64" />
+        <line x2="0" y1="-768" y2="-768" x1="64" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <rect width="64" x="0" y="-684" height="24" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-640" y2="-640" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="464" y1="-640" y2="-640" x1="400" />
+        <rect width="64" x="400" y="-684" height="24" />
+        <line x2="464" y1="-672" y2="-672" x1="400" />
+        <line x2="464" y1="-608" y2="-608" x1="400" />
+        <rect width="64" x="400" y="-812" height="24" />
+        <line x2="464" y1="-800" y2="-800" x1="400" />
+        <line x2="464" y1="-768" y2="-768" x1="400" />
+        <line x2="464" y1="-736" y2="-736" x1="400" />
+        <line x2="464" y1="-560" y2="-560" x1="400" />
+        <line x2="464" y1="-528" y2="-528" x1="400" />
+        <line x2="464" y1="-128" y2="-128" x1="400" />
+        <rect width="64" x="400" y="-204" height="24" />
+        <line x2="464" y1="-192" y2="-192" x1="400" />
+        <rect width="64" x="400" y="-172" height="24" />
+        <line x2="464" y1="-160" y2="-160" x1="400" />
+        <line x2="464" y1="208" y2="208" x1="400" />
+        <line x2="464" y1="240" y2="240" x1="400" />
+        <line x2="464" y1="272" y2="272" x1="400" />
+        <line x2="464" y1="176" y2="176" x1="400" />
+        <line x2="464" y1="80" y2="80" x1="400" />
+        <line x2="464" y1="112" y2="112" x1="400" />
+        <line x2="464" y1="144" y2="144" x1="400" />
+        <line x2="464" y1="48" y2="48" x1="400" />
+        <rect width="64" x="400" y="-108" height="24" />
+        <line x2="400" y1="-96" y2="-96" x1="464" />
+        <line x2="400" y1="-708" y2="-708" style="linewidth:W" x1="64" />
+        <line x2="64" y1="-584" y2="-584" style="linewidth:W" x1="400" />
+        <line x2="64" y1="-472" y2="-472" style="linewidth:W" x1="400" />
+        <line x2="64" y1="-344" y2="-344" style="linewidth:W" x1="400" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="64" y2="64" x1="64" />
+        <line x2="64" y1="-216" y2="-216" style="linewidth:W" x1="400" />
+        <line x2="464" y1="-16" y2="-16" x1="400" />
+        <line x2="64" y1="-40" y2="-40" style="linewidth:W" x1="400" />
+        <rect width="64" x="0" y="-12" height="24" />
+        <line x2="0" y1="0" y2="0" x1="64" />
+        <line x2="464" y1="-64" y2="-64" x1="400" />
+        <rect width="336" x="64" y="-820" height="1104" />
+        <line x2="464" y1="16" y2="16" x1="400" />
+    </graph>
+</symbol>

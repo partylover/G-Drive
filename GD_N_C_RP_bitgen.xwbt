@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\FPGA_Project\G_Drive_Ch\GD_N_C_RP_V1q\GD_N_C_RP.ncd
+OUTFILE=D:\FPGA_Project\G_Drive_Ch\GD_N_C_RP_V1q\GD_N_C_RP.bit
+FAMILY=Spartan6
+PART=xc6slx16-3ftg256
+WORKINGDIR=D:\FPGA_Project\G_Drive_Ch\GD_N_C_RP_V1q
+LICENSE=WebPack
+USER_INFO=__0_0_0

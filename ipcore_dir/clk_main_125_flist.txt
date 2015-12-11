@@ -1,0 +1,3 @@
+# Output products list for <clk_main_125>
+clk_main_125.xco
+clk_main_125_flist.txt

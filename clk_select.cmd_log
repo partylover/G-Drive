@@ -1,0 +1,4 @@
+vhdtdtfi -lib work clk_select.vhd -prj GD_N_C_RP -o clk_select.spl -module clk_select -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w clk_select.spl D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/clk_select.sym 
+vhdtdtfi -lib work clk_select.vhd -prj GD_N_C_RP -o clk_select.spl -module clk_select -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w clk_select.spl D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/clk_select.sym 

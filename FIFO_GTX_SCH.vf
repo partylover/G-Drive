@@ -1,0 +1,56 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : FIFO_GTX_SCH.vf
+// /___/   /\     Timestamp : 02/20/2014 12:02:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/FIFO_GTX_SCH.vf -w D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/FIFO_GTX_SCH.sch
+//Design Name: FIFO_GTX_SCH
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FIFO_GTX_SCH(DIN, 
+                    RD_CLK, 
+                    RD_EN, 
+                    RESET, 
+                    WR_CLK, 
+                    WR_EN, 
+                    DOUT, 
+                    RD_COUNT, 
+                    RD_EMPTY, 
+                    WR_FULL);
+
+    input [8:0] DIN;
+    input RD_CLK;
+    input RD_EN;
+    input RESET;
+    input WR_CLK;
+    input WR_EN;
+   output [8:0] DOUT;
+   output [10:0] RD_COUNT;
+   output RD_EMPTY;
+   output WR_FULL;
+   
+   
+   FIFO_GTX  XLXI_1 (.din(DIN[8:0]), 
+                    .rd_clk(RD_CLK), 
+                    .rd_en(RD_EN), 
+                    .rst(RESET), 
+                    .wr_clk(WR_CLK), 
+                    .wr_en(WR_EN), 
+                    .dout(DOUT[8:0]), 
+                    .empty(RD_EMPTY), 
+                    .full(WR_FULL), 
+                    .rd_data_count(RD_COUNT[10:0]));
+endmodule

@@ -1,0 +1,19 @@
+MODULE GD_Drive
+	SUBMODULE TEST_MODE
+		INSTANCE TEST_MODEi
+	SUBMODULE RGB_GAMMA_SCH
+		INSTANCE RGB_GAMMA_SCH1_i
+	SUBMODULE RGB_GAMMA_SCH
+		INSTANCE RGB_GAMMA_SCH2_i
+	SUBMODULE core_wb_ram
+		INSTANCE WB_RAMi
+	SUBMODULE i2c_master
+		INSTANCE i2c_master_i
+	SUBMODULE ee_prom_control
+		INSTANCE ee_prom_control_i
+	SUBMODULE g_drive_controller_shif_register
+		INSTANCE g_drive_controller_shif_register_i
+	SUBMODULE Driver_shift_register
+		INSTANCE Driver_shift_register_i
+	SUBMODULE sch_frame_buffer
+		INSTANCE sch_frame_buffer_i

@@ -1,0 +1,12 @@
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/ETH_RX.sym 
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/ETH_RX.sym 
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/ETH_RX.sym 
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/ETH_RX.sym 
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/ETH_RX.sym 
+vhdtdtfi -lib work ETH_RX.vhd -prj GD_N_C_RP -o ETH_RX.spl -module ETH_RX -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w ETH_RX.spl D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ETH_RX.sym 

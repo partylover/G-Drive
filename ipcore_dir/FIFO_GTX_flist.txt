@@ -1,0 +1,24 @@
+# Output products list for <FIFO_GTX>
+FIFO_GTX.asy
+FIFO_GTX.gise
+FIFO_GTX.ngc
+FIFO_GTX.sym
+FIFO_GTX.v
+FIFO_GTX.veo
+FIFO_GTX.xco
+FIFO_GTX.xise
+FIFO_GTX_flist.txt
+FIFO_GTX_ste\example_design\FIFO_GTX_top.ucf
+FIFO_GTX_ste\example_design\FIFO_GTX_top.vhd
+FIFO_GTX_ste\example_design\FIFO_GTX_top.xdc
+FIFO_GTX_ste\implement\implement.bat
+FIFO_GTX_ste\implement\implement.sh
+FIFO_GTX_ste\implement\planAhead_rdn.bat
+FIFO_GTX_ste\implement\planAhead_rdn.sh
+FIFO_GTX_ste\implement\planAhead_rdn.tcl
+FIFO_GTX_ste\implement\xst.prj
+FIFO_GTX_ste\implement\xst.scr
+FIFO_GTX_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+fifo_generator_ug175.pdf
+fifo_generator_v8_2_readme.txt

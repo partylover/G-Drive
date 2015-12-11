@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : CLKMAIN125.vf
+// /___/   /\     Timestamp : 10/07/2015 15:56:20
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/CLKMAIN125.vf -w D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/CLKMAIN125.sch
+//Design Name: CLKMAIN125
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module CLKMAIN125(CLK_IN, 
+                  CONFIG, 
+                  CLK_GD, 
+                  CLK_PWM, 
+                  CLK25, 
+                  CLK125, 
+                  RESET);
+
+    input CLK_IN;
+    input [31:0] CONFIG;
+   output CLK_GD;
+   output CLK_PWM;
+   output CLK25;
+   output CLK125;
+   output RESET;
+   
+   wire XLXN_1;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_7;
+   wire XLXN_12;
+   wire CLK25_DUMMY;
+   
+   assign CLK25 = CLK25_DUMMY;
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) ETH_CLK_MUXi (.I0(XLXN_3), 
+                           .I1(XLXN_4), 
+                           .S(XLXN_5), 
+                           .O(CLK_GD));
+   INV  XLXI_2 (.I(XLXN_1), 
+               .O(RESET));
+   clk_man  XLXI_5 (.clk_in1(CLK_IN), 
+                   .clk_out1(CLK125), 
+                   .clk_out2(CLK25_DUMMY), 
+                   .clk_out3(XLXN_3), 
+                   .clk_out4(XLXN_4), 
+                   .clk_out5(XLXN_7), 
+                   .locked(XLXN_1));
+   clk_select  XLXI_7 (.config_register(CONFIG[31:0]), 
+                      .select_out_GD_CLK(XLXN_5), 
+                      .select_out_PWM_CLK(XLXN_12));
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) XLXI_8 (.I0(CLK25_DUMMY), 
+                     .I1(XLXN_7), 
+                     .S(XLXN_12), 
+                     .O(CLK_PWM));
+endmodule

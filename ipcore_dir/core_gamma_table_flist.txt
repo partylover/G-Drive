@@ -1,0 +1,17 @@
+# Output products list for <core_gamma_table>
+_xmsgs\pn_parser.xmsgs
+core_gamma_table.asy
+core_gamma_table.gise
+core_gamma_table.mif
+core_gamma_table.ngc
+core_gamma_table.sym
+core_gamma_table.v
+core_gamma_table.veo
+core_gamma_table.xco
+core_gamma_table.xise
+core_gamma_table\blk_mem_gen_v7_3_readme.txt
+core_gamma_table\doc\blk_mem_gen_v7_3_vinfo.html
+core_gamma_table\doc\pg058-blk-mem-gen.pdf
+core_gamma_table_flist.txt
+core_gamma_table_xmdf.tcl
+summary.log

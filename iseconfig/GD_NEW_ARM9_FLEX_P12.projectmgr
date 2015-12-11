@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="GD_NEW_ARM9_FLEX_P12" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_2 - GD_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_2 - GD_Drive/XLXI_12 - RGB_GAMMA_SCH</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive/XLXI_4 - FIFO_GTX_SCH</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive/XLXI_7 - FIFO_GTX_SCH</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX D:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_6 - CLKMAIN125</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|D|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_2 - GD_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|D|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|D|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_6 - CLKMAIN125</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|d|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_2 - GD_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|d|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_2 - GD_Drive/XLXI_12 - RGB_GAMMA_SCH</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Y:|d|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Z:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch</ClosedNode>
+         <ClosedNode>/GD_N_ARM9_P12FLEX Z:|FPGA_project|NEWVERSION|VMS|GD_NEW_ARM9_FLEX_P12|GD_N_ARM9_P12FLEX.sch/XLXI_30 - ETH_Drive</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>GD_N_ARM9_P12FLEX (D:/FPGA_project/NEWVERSION/VMS/GD_NEW_ARM9_FLEX_P12/GD_N_ARM9_P12FLEX.sch)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001cb000000020000000000000000000000000200000064ffffffff000000810000000300000002000001cb0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>GD_N_ARM9_P12FLEX (D:/FPGA_project/NEWVERSION/VMS/GD_NEW_ARM9_FLEX_P12/GD_N_ARM9_P12FLEX.sch)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000106000000010000000100000000000000000000000064ffffffff000000810000000000000001000001060000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CLKMAIN125.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Manage Cores</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Manage Cores</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

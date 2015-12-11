@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="WB_RAMD">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-5-2T9:48:31</timestamp>
+    <pin polarity="Input" x="0" y="80" name="addra(9:0)" />
+    <pin polarity="Input" x="0" y="112" name="dina(23:0)" />
+    <pin polarity="Input" x="0" y="144" name="wea(0:0)" />
+    <pin polarity="Input" x="0" y="176" name="clka" />
+    <pin polarity="Input" x="0" y="336" name="clkb" />
+    <pin polarity="Input" x="0" y="368" name="rstb" />
+    <pin polarity="Output" x="320" y="80" name="douta(23:0)" />
+    <pin polarity="Input" x="0" y="240" name="addrb(9:0)" />
+    <pin polarity="Input" x="0" y="272" name="dinb(23:0)" />
+    <pin polarity="Input" x="0" y="304" name="web(0:0)" />
+    <pin polarity="Output" x="320" y="192" name="doutb(23:0)" />
+    <graph>
+        <rect width="252" x="32" y="32" height="352" />
+        <line x2="32" y1="80" y2="80" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="80" type="pin addra(9:0)" />
+        <line x2="32" y1="112" y2="112" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin dina(23:0)" />
+        <line x2="32" y1="144" y2="144" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="144" type="pin wea(0:0)" />
+        <line x2="32" y1="176" y2="176" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="176" type="pin clka" />
+        <line x2="32" y1="336" y2="336" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="336" type="pin clkb" />
+        <text style="fontsize:40;fontname:Arial" x="40" y="8">WB_RAMD</text>
+        <line x2="32" y1="368" y2="368" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="368" type="pin rstb" />
+        <line x2="288" y1="80" y2="80" style="linewidth:W" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="284" y="80" type="pin douta(23:0)" />
+        <line x2="32" y1="240" y2="240" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="240" type="pin addrb(9:0)" />
+        <line x2="32" y1="272" y2="272" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin dinb(23:0)" />
+        <line x2="32" y1="304" y2="304" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="304" type="pin web(0:0)" />
+        <line x2="288" y1="192" y2="192" style="linewidth:W" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="284" y="192" type="pin doutb(23:0)" />
+    </graph>
+</symbol>

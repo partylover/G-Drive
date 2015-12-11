@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.68d
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Administrator\Desktop\GD_N_C_RP\//GD_N_C_RP_V1s -s 2048 -u 0000 C:/Users/Administrator/Desktop/GD_N_C_RP/gd_n_c_rp.bit -spi 
+
+PROM C:\Users\Administrator\Desktop\GD_N_C_RP\GD_N_C_RP_V1s.prm map: Thu Jul 17 08:41:51 2014
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          2048K
+PROM start    0000:0000
+PROM end      001f:ffff
+PROM checksum 192c2227
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0007:1883     Jul 16 17:17:28 2014 C:/Users/Administrator/Desktop/GD_N_C_RP/gd_n_c_rp.bit

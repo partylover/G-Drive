@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Oct 07 17:11:34 2015
+# Process ID: 7580
+# Log file: D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/planAhead_run_1/planAhead.log
+# Journal file: D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/pa.fromNetlist.tcl

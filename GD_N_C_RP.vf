@@ -1,0 +1,942 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : GD_N_C_RP.vf
+// /___/   /\     Timestamp : 10/07/2015 17:10:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.vf -w D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.sch
+//Design Name: GD_N_C_RP
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sch_frame_buffer_MUSER_GD_N_C_RP(ADD_A, 
+                                        ADD_B, 
+                                        CLK_A, 
+                                        CLK_B, 
+                                        Config_register, 
+                                        DATA_IN_A, 
+                                        WR_A, 
+                                        DOUT_1, 
+                                        DOUT_2);
+
+    input [13:0] ADD_A;
+    input [12:0] ADD_B;
+    input CLK_A;
+    input CLK_B;
+    input [31:0] Config_register;
+    input [23:0] DATA_IN_A;
+    input WR_A;
+   output [23:0] DOUT_1;
+   output [23:0] DOUT_2;
+   
+   wire [12:0] XLXN_15;
+   wire [0:0] XLXN_16;
+   wire [12:0] XLXN_17;
+   wire [0:0] XLXN_18;
+   
+   frame_buff_mem  frame_buff_memi (.addra(XLXN_15[12:0]), 
+                                   .addrb(ADD_B[12:0]), 
+                                   .clka(CLK_A), 
+                                   .clkb(CLK_B), 
+                                   .dina(DATA_IN_A[23:0]), 
+                                   .wea(XLXN_16[0]), 
+                                   .doutb(DOUT_1[23:0]));
+   frame_buff_mem  XLXI_2 (.addra(XLXN_17[12:0]), 
+                          .addrb(ADD_B[12:0]), 
+                          .clka(CLK_A), 
+                          .clkb(CLK_B), 
+                          .dina(DATA_IN_A[23:0]), 
+                          .wea(XLXN_18[0]), 
+                          .doutb(DOUT_2[23:0]));
+   frame_buffer_add_mux  XLXI_3 (.ADD_IN(ADD_A[13:0]), 
+                                .CLK(CLK_A), 
+                                .Config_register(Config_register[31:0]), 
+                                .WR_IN(WR_A), 
+                                .ADD_OUT_1(XLXN_15[12:0]), 
+                                .ADD_OUT_2(XLXN_17[12:0]), 
+                                .WR_OUT_1(XLXN_16[0]), 
+                                .WR_OUT_2(XLXN_18[0]));
+endmodule
+`timescale 1ns / 1ps
+
+module RGB_GAMMA_SCH_MUSER_GD_N_C_RP(CLK, 
+                                     CLK_IN, 
+                                     GAMMA, 
+                                     RGB_IN, 
+                                     WE, 
+                                     RGB_OUT);
+
+    input CLK;
+    input CLK_IN;
+    input [23:0] GAMMA;
+    input [23:0] RGB_IN;
+    input [0:0] WE;
+   output [47:0] RGB_OUT;
+   
+   
+   core_gamma_table  gamma_table_B_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[7:0]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[15:0]));
+   core_gamma_table  gamma_table_G_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[15:8]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[31:16]));
+   core_gamma_table  gamma_table_R_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[23:16]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[47:32]));
+endmodule
+`timescale 1ns / 1ps
+
+module GD_Drive_MUSER_GD_N_C_RP(ADD_WB, 
+                                CLK_FIBER, 
+                                CLK_GD, 
+                                CLK_PWM, 
+                                CLK_125, 
+                                CONFIG, 
+                                DATA_WB, 
+                                DIM, 
+                                display_ena, 
+                                GAMMA, 
+                                PAGE_IN, 
+                                RESET, 
+                                VIDEO_ADD, 
+                                VIDEO_DATA, 
+                                VIDEO_WR, 
+                                WB_WR_TRIG, 
+                                WE_GAMMA, 
+                                WR_WB, 
+                                B, 
+                                DATA_WB_o, 
+                                DB1, 
+                                DB2, 
+                                DB3, 
+                                DB4, 
+                                EEPROM_WP, 
+                                G, 
+                                HA, 
+                                HB, 
+                                HC, 
+                                HD, 
+                                i2c_ack_error, 
+                                MODE_Flage, 
+                                OE, 
+                                R, 
+                                SCLK, 
+                                STR, 
+                                SCL, 
+                                SDA);
+
+    input [7:0] ADD_WB;
+    input CLK_FIBER;
+    input CLK_GD;
+    input CLK_PWM;
+    input CLK_125;
+    input [31:0] CONFIG;
+    input [23:0] DATA_WB;
+    input [4:0] DIM;
+    input display_ena;
+    input [23:0] GAMMA;
+    input PAGE_IN;
+    input RESET;
+    input [13:0] VIDEO_ADD;
+    input [23:0] VIDEO_DATA;
+    input VIDEO_WR;
+    input WB_WR_TRIG;
+    input [0:0] WE_GAMMA;
+    input WR_WB;
+   output [15:0] B;
+   output [23:0] DATA_WB_o;
+   output DB1;
+   output DB2;
+   output DB3;
+   output DB4;
+   output EEPROM_WP;
+   output [15:0] G;
+   output HA;
+   output HB;
+   output HC;
+   output HD;
+   output i2c_ack_error;
+   output MODE_Flage;
+   output OE;
+   output [15:0] R;
+   output SCLK;
+   output STR;
+    inout SCL;
+    inout SDA;
+   
+   wire [13:0] XLXN_1;
+   wire [23:0] XLXN_2;
+   wire [23:0] XLXN_4;
+   wire [12:0] XLXN_6;
+   wire [7:0] XLXN_185;
+   wire [3:0] XLXN_186;
+   wire XLXN_187;
+   wire XLXN_188;
+   wire [47:0] XLXN_422;
+   wire XLXN_425;
+   wire [47:0] XLXN_426;
+   wire XLXN_487;
+   wire XLXN_488;
+   wire [23:0] XLXN_876;
+   wire [6:0] XLXN_885;
+   wire [7:0] XLXN_886;
+   wire XLXN_887;
+   wire XLXN_888;
+   wire [7:0] XLXN_890;
+   wire [23:0] XLXN_891;
+   wire [7:0] XLXN_892;
+   wire [0:0] XLXN_893;
+   wire [7:0] XLXN_899;
+   wire XLXN_900;
+   wire XLXN_901;
+   wire XLXN_1008;
+   wire [47:0] XLXN_1016;
+   wire [0:0] XLXN_1017;
+   wire [23:0] XLXN_1018;
+   wire XLXN_1021;
+   wire XLXN_1022;
+   wire [4:0] XLXN_1023;
+   wire [4:0] XLXN_1024;
+   wire XLXN_1025;
+   
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) CLK_GD_MUXi (.I0(CLK_FIBER), 
+                          .I1(CLK_125), 
+                          .S(XLXN_488), 
+                          .O(XLXN_487));
+   Driver_shift_register  Driver_shift_register_i (.CLK(CLK_GD), 
+                                                  .CONFIG_EN(XLXN_188), 
+                                                  
+         .Config_register(CONFIG[31:0]), 
+                                                  .DATA(XLXN_185[7:0]), 
+                                                  .DATA_CONFIG(XLXN_426[47:0]), 
+                                                  .DIMMER(XLXN_1023[4:0]), 
+                                                  .display_enable(XLXN_187), 
+                                                  
+         .display_enable1(display_ena), 
+                                                  .display_enable2(XLXN_1022), 
+                                                  .MODE(XLXN_1025), 
+                                                  .MODE_PWM(XLXN_1021), 
+                                                  .RGB(XLXN_1016[47:0]), 
+                                                  .RGB_B(XLXN_422[47:0]), 
+                                                  .ROW(XLXN_186[3:0]), 
+                                                  .B_o(B[15:0]), 
+                                                  .G_o(G[15:0]), 
+                                                  .R_o(R[15:0]));
+   ee_prom_control  ee_prom_control_i (.ADD_IN_WB_RAM(XLXN_899[7:0]), 
+                                      .BUSY_I2C_i(XLXN_1008), 
+                                      .CLK(CLK_GD), 
+                                      .Config_register(CONFIG[31:0]), 
+                                      .DATA_IN_WB_RAM(XLXN_876[23:0]), 
+                                      .DATA_I2C_i(XLXN_890[7:0]), 
+                                      .driver_busy(XLXN_900), 
+                                      .reset(RESET), 
+                                      .WB_WR_TRIG(WB_WR_TRIG), 
+                                      .ADD_BUS_BUSY(XLXN_901), 
+                                      .ADD_I2C_o(XLXN_885[6:0]), 
+                                      .ADD_OUT_WB_RAM(XLXN_892[7:0]), 
+                                      .BLINK_OUT(XLXN_1022), 
+                                      .DATA_I2C_o(XLXN_886[7:0]), 
+                                      .DATA_OUT_WB_RAM(XLXN_891[23:0]), 
+                                      .DB1(DB1), 
+                                      .DB2(DB2), 
+                                      .DB3(DB3), 
+                                      .DB4(DB4), 
+                                      .EEPROM_WP(EEPROM_WP), 
+                                      .ENA_I2C_o(XLXN_887), 
+                                      .RW_I2C_o(XLXN_888), 
+                                      .WR_RAM(XLXN_893[0]));
+   g_drive_controller_shif_register  g_drive_controller_shif_register_i 
+         (.ADD_BUS_WB_BUSY(XLXN_901), 
+                                                                        
+         .CLK(CLK_GD), 
+                                                                        
+         .CLK_PWM(CLK_PWM), 
+                                                                        
+         .Config_register(CONFIG[31:0]), 
+                                                                        
+         .DATA_WB(XLXN_876[23:0]), 
+                                                                        
+         .DIMMER(XLXN_1024[4:0]), 
+                                                                        
+         .PAGE(XLXN_425), 
+                                                                        
+         .RESET(RESET), 
+                                                                        
+         .ADDRESS(XLXN_6[12:0]), 
+                                                                        
+         .ADDRESS_WB(XLXN_899[7:0]), 
+                                                                        
+         .CLK_OUT1(SCLK), 
+                                                                        
+         .CLK_OUT2(), 
+                                                                        
+         .config_data(XLXN_426[47:0]), 
+                                                                        
+         .config_enable(XLXN_188), 
+                                                                        
+         .DATA(XLXN_185[7:0]), 
+                                                                        
+         .DIMMER_o(XLXN_1023[4:0]), 
+                                                                        
+         .display_enable(XLXN_187), 
+                                                                        
+         .HA(HA), 
+                                                                        
+         .HB(HB), 
+                                                                        
+         .HC(HC), 
+                                                                        
+         .HD(HD), 
+                                                                        
+         .MODE(XLXN_1025), 
+                                                                        
+         .MODE_PWM(XLXN_1021), 
+                                                                        
+         .OE1(OE), 
+                                                                        .OE2(), 
+                                                                        
+         .ROW_select(XLXN_186[3:0]), 
+                                                                        
+         .SEND_WB_BUSY(XLXN_900), 
+                                                                        
+         .STROBE1(STR), 
+                                                                        
+         .STROBE2());
+   i2c_master  i2c_master_i (.addr(XLXN_885[6:0]), 
+                            .clk(CLK_GD), 
+                            .data_wr(XLXN_886[7:0]), 
+                            .ena(XLXN_887), 
+                            .reset_n(RESET), 
+                            .rw(XLXN_888), 
+                            .ack_error(i2c_ack_error), 
+                            .busy(XLXN_1008), 
+                            .data_rd(XLXN_890[7:0]), 
+                            .scl(SCL), 
+                            .sda(SDA));
+   RGB_GAMMA_SCH_MUSER_GD_N_C_RP  RGB_GAMMA_SCH1_i (.CLK(CLK_GD), 
+                                                   .CLK_IN(CLK_FIBER), 
+                                                   .GAMMA(GAMMA[23:0]), 
+                                                   .RGB_IN(XLXN_1018[23:0]), 
+                                                   .WE(WE_GAMMA[0]), 
+                                                   .RGB_OUT(XLXN_1016[47:0]));
+   RGB_GAMMA_SCH_MUSER_GD_N_C_RP  RGB_GAMMA_SCH2_i (.CLK(CLK_GD), 
+                                                   .CLK_IN(CLK_FIBER), 
+                                                   .GAMMA(GAMMA[23:0]), 
+                                                   .RGB_IN(XLXN_4[23:0]), 
+                                                   .WE(WE_GAMMA[0]), 
+                                                   .RGB_OUT(XLXN_422[47:0]));
+   sch_frame_buffer_MUSER_GD_N_C_RP  sch_frame_buffer_i (.ADD_A(XLXN_1[13:0]), 
+                                                        .ADD_B(XLXN_6[12:0]), 
+                                                        .CLK_A(XLXN_487), 
+                                                        .CLK_B(CLK_GD), 
+                                                        
+         .Config_register(CONFIG[31:0]), 
+                                                        
+         .DATA_IN_A(XLXN_2[23:0]), 
+                                                        .WR_A(XLXN_1017[0]), 
+                                                        
+         .DOUT_1(XLXN_1018[23:0]), 
+                                                        .DOUT_2(XLXN_4[23:0]));
+   TEST_MODE  TEST_MODEi (.ACTIVE_IN(PAGE_IN), 
+                         .ADD_IN(VIDEO_ADD[13:0]), 
+                         .CLK(CLK_125), 
+                         .Config_register(CONFIG[31:0]), 
+                         .DATA_IN(VIDEO_DATA[23:0]), 
+                         .DIM_IN(DIM[4:0]), 
+                         .WE_IN(VIDEO_WR), 
+                         .ACTIVE_OUT(XLXN_425), 
+                         .ADD_OUT(XLXN_1[13:0]), 
+                         .DATA_OUT(XLXN_2[23:0]), 
+                         .DIM_O(XLXN_1024[4:0]), 
+                         .select_clk(XLXN_488), 
+                         .WE_OUT(XLXN_1017[0]));
+   core_wb_ram  WB_RAMi (.addra(ADD_WB[7:0]), 
+                        .addrb(XLXN_892[7:0]), 
+                        .clka(CLK_FIBER), 
+                        .clkb(CLK_GD), 
+                        .dina(DATA_WB[23:0]), 
+                        .dinb(XLXN_891[23:0]), 
+                        .wea(WR_WB), 
+                        .web(XLXN_893[0]), 
+                        .douta(DATA_WB_o[23:0]), 
+                        .doutb(XLXN_876[23:0]));
+   BUF  XLXI_1 (.I(XLXN_1025), 
+               .O(MODE_Flage));
+endmodule
+`timescale 1ns / 1ps
+
+module FIFO_GTX_SCH_MUSER_GD_N_C_RP(DIN, 
+                                    RD_CLK, 
+                                    RD_EN, 
+                                    RESET, 
+                                    WR_CLK, 
+                                    WR_EN, 
+                                    DOUT, 
+                                    RD_COUNT, 
+                                    RD_EMPTY, 
+                                    WR_FULL);
+
+    input [8:0] DIN;
+    input RD_CLK;
+    input RD_EN;
+    input RESET;
+    input WR_CLK;
+    input WR_EN;
+   output [8:0] DOUT;
+   output [10:0] RD_COUNT;
+   output RD_EMPTY;
+   output WR_FULL;
+   
+   
+   FIFO_GTX  XLXI_1 (.din(DIN[8:0]), 
+                    .rd_clk(RD_CLK), 
+                    .rd_en(RD_EN), 
+                    .rst(RESET), 
+                    .wr_clk(WR_CLK), 
+                    .wr_en(WR_EN), 
+                    .dout(DOUT[8:0]), 
+                    .empty(RD_EMPTY), 
+                    .full(WR_FULL), 
+                    .rd_data_count(RD_COUNT[10:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ETH_Drive_MUSER_GD_N_C_RP(CLK_125M, 
+                                 CONFIG_ETH, 
+                                 DATA_WB_I, 
+                                 PHY_RX, 
+                                 PHY_RXD2, 
+                                 RESET, 
+                                 RX_CLK, 
+                                 RX_CLK2, 
+                                 RX_DV, 
+                                 RX_DV2, 
+                                 ADDRESS, 
+                                 ADD_WB, 
+                                 BLINK_OUT, 
+                                 DATA, 
+                                 DATA_GAMMA, 
+                                 DATA_WB, 
+                                 DB_1, 
+                                 DB2, 
+                                 DB3, 
+                                 DB4, 
+                                 DB5, 
+                                 DB6, 
+                                 DB7, 
+                                 DB8, 
+                                 DIMMER, 
+                                 GTX_CLK, 
+                                 GTX_CLK2, 
+                                 PAGE, 
+                                 PHY_MDC, 
+                                 PHY_MDIO, 
+                                 PHY_RESET, 
+                                 PHY_TXD, 
+                                 PHY_TXD2, 
+                                 TX_EN, 
+                                 TX_EN2, 
+                                 WB_EEP_WR, 
+                                 WE, 
+                                 WR_GAMMA, 
+                                 WR_WB);
+
+    input CLK_125M;
+    input [31:0] CONFIG_ETH;
+    input [23:0] DATA_WB_I;
+    input [7:0] PHY_RX;
+    input [7:0] PHY_RXD2;
+    input RESET;
+    input RX_CLK;
+    input RX_CLK2;
+    input RX_DV;
+    input RX_DV2;
+   output [13:0] ADDRESS;
+   output [7:0] ADD_WB;
+   output BLINK_OUT;
+   output [23:0] DATA;
+   output [23:0] DATA_GAMMA;
+   output [23:0] DATA_WB;
+   output DB_1;
+   output DB2;
+   output DB3;
+   output DB4;
+   output DB5;
+   output DB6;
+   output DB7;
+   output DB8;
+   output [4:0] DIMMER;
+   output GTX_CLK;
+   output GTX_CLK2;
+   output PAGE;
+   output PHY_MDC;
+   output PHY_MDIO;
+   output PHY_RESET;
+   output [7:0] PHY_TXD;
+   output [7:0] PHY_TXD2;
+   output TX_EN;
+   output TX_EN2;
+   output WB_EEP_WR;
+   output WE;
+   output WR_GAMMA;
+   output WR_WB;
+   
+   wire DB1;
+   wire [8:0] XLXN_1;
+   wire [8:0] XLXN_29;
+   wire [8:0] XLXN_202;
+   wire [8:0] XLXN_232;
+   wire [8:0] XLXN_237;
+   wire [10:0] XLXN_249;
+   wire [10:0] XLXN_250;
+   wire XLXN_253;
+   wire XLXN_254;
+   wire XLXN_283;
+   wire XLXN_284;
+   wire XLXN_285;
+   wire XLXN_286;
+   wire XLXN_287;
+   wire XLXN_292;
+   wire XLXN_345;
+   wire XLXN_370;
+   wire XLXN_371;
+   wire XLXN_372;
+   wire XLXN_375;
+   wire XLXN_389;
+   wire TX_EN_DUMMY;
+   wire PHY_MDIO_DUMMY;
+   wire PHY_MDC_DUMMY;
+   
+   assign PHY_MDC = PHY_MDC_DUMMY;
+   assign PHY_MDIO = PHY_MDIO_DUMMY;
+   assign TX_EN = TX_EN_DUMMY;
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) ETH_CLK_MUXi (.I0(RX_CLK), 
+                           .I1(RX_CLK2), 
+                           .S(XLXN_370), 
+                           .O(DB1));
+   ETH_RX_BP  ETH_RXbi (.CLK(CLK_125M), 
+                       .PHY_RXD(PHY_RXD2[7:0]), 
+                       .RESET(RESET), 
+                       .RX_CLK(XLXN_292), 
+                       .RX_DV(RX_DV2), 
+                       .DATA_OUT_PHY(XLXN_232[8:0]), 
+                       .RX_ACTIVE(XLXN_370), 
+                       .WR_PHY(XLXN_389));
+   ETH_RX  ETH_RXi (.CLK(CLK_125M), 
+                   .CONFIG_REG(CONFIG_ETH[31:0]), 
+                   .DATA_IN_WB(DATA_WB_I[23:0]), 
+                   .PHY_RXD(PHY_RX[7:0]), 
+                   .RESET(RESET), 
+                   .RX_ACTIVE_IN(XLXN_370), 
+                   .RX_CLK(RX_CLK), 
+                   .RX_DV(RX_DV), 
+                   .ADDRESS(ADDRESS[13:0]), 
+                   .ADD_WB(ADD_WB[7:0]), 
+                   .BLINK_OUT(BLINK_OUT), 
+                   .DATA(DATA[23:0]), 
+                   .DATA_GAMMA(DATA_GAMMA[23:0]), 
+                   .DATA_OUT_PHY(XLXN_202[8:0]), 
+                   .DATA_OUT_WB(DATA_WB[23:0]), 
+                   .DEBUG1(), 
+                   .DEBUG2(), 
+                   .DEBUG3(), 
+                   .DEBUG4(), 
+                   .DEBUG5(DB5), 
+                   .DEBUG6(DB6), 
+                   .DEBUG7(DB7), 
+                   .DEBUG8(), 
+                   .DIMMER(DIMMER[4:0]), 
+                   .LED_ERROR_TG(), 
+                   .LED_OS(), 
+                   .PAGE(PAGE), 
+                   .PHY_A_RESET(XLXN_371), 
+                   .PHY_B_RESET(XLXN_372), 
+                   .PHY_RESET(PHY_RESET), 
+                   .RST_WB_BRAM(), 
+                   .WB_EEP_WR(WB_EEP_WR), 
+                   .WE(WE), 
+                   .WR_GAMMA(WR_GAMMA), 
+                   .WR_PHY_1(XLXN_375), 
+                   .WR_PHY_2(XLXN_345), 
+                   .WR_WB(WR_WB));
+   ETH_SELECT_LOOP  ETH_SELECT_LOOPi (.DIN1(XLXN_202[8:0]), 
+                                     .DIN2(XLXN_232[8:0]), 
+                                     .ENABLE1(XLXN_370), 
+                                     .WR_EN1(XLXN_375), 
+                                     .WR_EN2(XLXN_389), 
+                                     .DB(), 
+                                     .ENABLE(), 
+                                     .ODIN1(XLXN_237[8:0]), 
+                                     .WR_ENO(XLXN_283));
+   ETH_TX  ETH_TX1i (.CLK(CLK_125M), 
+                    .DATA_IN(XLXN_1[8:0]), 
+                    .RD_COUNT(XLXN_249[10:0]), 
+                    .RESET(RESET), 
+                    .DEBUG1(), 
+                    .DEBUG2(), 
+                    .DEBUG3(), 
+                    .DEBUG4(), 
+                    .GTX_CLK(GTX_CLK), 
+                    .PHY_MDC(), 
+                    .PHY_MDIO(), 
+                    .PHY_TXD(PHY_TXD[7:0]), 
+                    .RD_EN(XLXN_253), 
+                    .TX_EN(TX_EN_DUMMY));
+   ETH_TX  ETH_TX2i (.CLK(CLK_125M), 
+                    .DATA_IN(XLXN_29[8:0]), 
+                    .RD_COUNT(XLXN_250[10:0]), 
+                    .RESET(RESET), 
+                    .DEBUG1(), 
+                    .DEBUG2(), 
+                    .DEBUG3(), 
+                    .DEBUG4(), 
+                    .GTX_CLK(GTX_CLK2), 
+                    .PHY_MDC(DB8), 
+                    .PHY_MDIO(), 
+                    .PHY_TXD(PHY_TXD2[7:0]), 
+                    .RD_EN(XLXN_254), 
+                    .TX_EN(TX_EN2));
+   FIFO_GTX_SCH_MUSER_GD_N_C_RP  FIFO_ETH1i (.DIN(XLXN_237[8:0]), 
+                                            .RD_CLK(CLK_125M), 
+                                            .RD_EN(XLXN_253), 
+                                            .RESET(RESET), 
+                                            .WR_CLK(DB1), 
+                                            .WR_EN(XLXN_284), 
+                                            .DOUT(XLXN_1[8:0]), 
+                                            .RD_COUNT(XLXN_249[10:0]), 
+                                            .RD_EMPTY(), 
+                                            .WR_FULL(XLXN_285));
+   FIFO_GTX_SCH_MUSER_GD_N_C_RP  FIFO_ETH2i (.DIN(XLXN_202[8:0]), 
+                                            .RD_CLK(CLK_125M), 
+                                            .RD_EN(XLXN_254), 
+                                            .RESET(RESET), 
+                                            .WR_CLK(RX_CLK), 
+                                            .WR_EN(XLXN_287), 
+                                            .DOUT(XLXN_29[8:0]), 
+                                            .RD_COUNT(XLXN_250[10:0]), 
+                                            .RD_EMPTY(), 
+                                            .WR_FULL(XLXN_286));
+   AND2B1  XLXI_7 (.I0(XLXN_285), 
+                  .I1(XLXN_283), 
+                  .O(XLXN_284));
+   AND2B1  XLXI_8 (.I0(XLXN_286), 
+                  .I1(XLXN_345), 
+                  .O(XLXN_287));
+   BUFG  XLXI_36 (.I(RX_CLK2), 
+                 .O(XLXN_292));
+   BUF  XLXI_40 (.I(PHY_MDC_DUMMY), 
+                .O());
+   BUF  XLXI_42 (.I(PHY_MDIO_DUMMY), 
+                .O());
+   BUF  XLXI_43 (.I(XLXN_345), 
+                .O(DB2));
+   serial_management  XLXI_44 (.CLK(CLK_125M), 
+                              .CONFIG_REG(CONFIG_ETH[31:0]), 
+                              .PHY_RESET_A_in(XLXN_371), 
+                              .PHY_RESET_B_in(XLXN_372), 
+                              .MDC(PHY_MDC_DUMMY), 
+                              .MDIO(PHY_MDIO_DUMMY));
+   BUF  XLXI_45 (.I(TX_EN_DUMMY), 
+                .O());
+   BUF  XLXI_46 (.I(XLXN_389), 
+                .O(DB4));
+   BUF  XLXI_47 (.I(XLXN_375), 
+                .O(DB_1));
+   BUF  XLXI_50 (.I(RX_DV2), 
+                .O(DB3));
+endmodule
+`timescale 1ns / 1ps
+
+module CLKMAIN125_MUSER_GD_N_C_RP(CLK_IN, 
+                                  CONFIG, 
+                                  CLK_GD, 
+                                  CLK_PWM, 
+                                  CLK25, 
+                                  CLK125, 
+                                  RESET);
+
+    input CLK_IN;
+    input [31:0] CONFIG;
+   output CLK_GD;
+   output CLK_PWM;
+   output CLK25;
+   output CLK125;
+   output RESET;
+   
+   wire XLXN_1;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_7;
+   wire XLXN_12;
+   wire CLK25_DUMMY;
+   
+   assign CLK25 = CLK25_DUMMY;
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) ETH_CLK_MUXi (.I0(XLXN_3), 
+                           .I1(XLXN_4), 
+                           .S(XLXN_5), 
+                           .O(CLK_GD));
+   INV  XLXI_2 (.I(XLXN_1), 
+               .O(RESET));
+   clk_man  XLXI_5 (.clk_in1(CLK_IN), 
+                   .clk_out1(CLK125), 
+                   .clk_out2(CLK25_DUMMY), 
+                   .clk_out3(XLXN_3), 
+                   .clk_out4(XLXN_4), 
+                   .clk_out5(XLXN_7), 
+                   .locked(XLXN_1));
+   clk_select  XLXI_7 (.config_register(CONFIG[31:0]), 
+                      .select_out_GD_CLK(XLXN_5), 
+                      .select_out_PWM_CLK(XLXN_12));
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) XLXI_8 (.I0(CLK25_DUMMY), 
+                     .I1(XLXN_7), 
+                     .S(XLXN_12), 
+                     .O(CLK_PWM));
+endmodule
+`timescale 1ns / 1ps
+
+module GD_N_C_RP(C125IN, 
+                 DIP_SW_BUF, 
+                 DIP_SW_SEL, 
+                 DIP_SW1, 
+                 PHY_RX, 
+                 PHY_RXD2, 
+                 RX_CLK, 
+                 RX_CLK2, 
+                 RX_DV, 
+                 RX_DV2, 
+                 DB1, 
+                 DB2, 
+                 DB3, 
+                 DB4, 
+                 DIGIT, 
+                 DOUT_SEG, 
+                 EEPROM_WP, 
+                 FAN_OUT, 
+                 GTX_CLK, 
+                 GTX_CLK2, 
+                 HA, 
+                 HB, 
+                 HC, 
+                 HD, 
+                 LED_OS, 
+                 LED_RX, 
+                 OE, 
+                 PHY_CLK25, 
+                 PHY_MDC, 
+                 PHY_MDIO, 
+                 PHY_RESET, 
+                 PHY_TX, 
+                 PHY_TXD2, 
+                 SB, 
+                 SCLK, 
+                 SG, 
+                 SR, 
+                 STR, 
+                 TX_EN, 
+                 TX_EN2, 
+                 Watchdog, 
+                 EEPROM_SCL, 
+                 EEPROM_SDA, 
+                 TEMPIO);
+
+    input C125IN;
+    input [7:0] DIP_SW_BUF;
+    input [7:0] DIP_SW_SEL;
+    input [2:0] DIP_SW1;
+    input [7:0] PHY_RX;
+    input [7:0] PHY_RXD2;
+    input RX_CLK;
+    input RX_CLK2;
+    input RX_DV;
+    input RX_DV2;
+   output DB1;
+   output DB2;
+   output DB3;
+   output DB4;
+   output [2:0] DIGIT;
+   output [7:0] DOUT_SEG;
+   output EEPROM_WP;
+   output FAN_OUT;
+   output GTX_CLK;
+   output GTX_CLK2;
+   output HA;
+   output HB;
+   output HC;
+   output HD;
+   output LED_OS;
+   output LED_RX;
+   output OE;
+   output PHY_CLK25;
+   output PHY_MDC;
+   output PHY_MDIO;
+   output PHY_RESET;
+   output [7:0] PHY_TX;
+   output [7:0] PHY_TXD2;
+   output [15:0] SB;
+   output SCLK;
+   output [15:0] SG;
+   output [15:0] SR;
+   output STR;
+   output TX_EN;
+   output TX_EN2;
+   output Watchdog;
+    inout EEPROM_SCL;
+    inout EEPROM_SDA;
+    inout TEMPIO;
+   
+   wire [7:0] XLXN_467;
+   wire XLXN_649;
+   wire [13:0] XLXN_673;
+   wire [23:0] XLXN_674;
+   wire XLXN_675;
+   wire [23:0] XLXN_679;
+   wire XLXN_695;
+   wire XLXN_709;
+   wire [4:0] XLXN_832;
+   wire [0:0] XLXN_833;
+   wire [7:0] XLXN_865;
+   wire [23:0] XLXN_866;
+   wire XLXN_867;
+   wire [23:0] XLXN_868;
+   wire XLXN_882;
+   wire XLXN_962;
+   wire XLXN_966;
+   wire [31:0] XLXN_967;
+   wire XLXN_968;
+   wire XLXN_969;
+   
+   CLKMAIN125_MUSER_GD_N_C_RP  CLKMAINi (.CLK_IN(C125IN), 
+                                        .CONFIG(XLXN_967[31:0]), 
+                                        .CLK_GD(XLXN_966), 
+                                        .CLK_PWM(XLXN_968), 
+                                        .CLK25(PHY_CLK25), 
+                                        .CLK125(XLXN_962), 
+                                        .RESET(XLXN_649));
+   ETH_Drive_MUSER_GD_N_C_RP  ETH_DRIVEi (.CLK_125M(XLXN_962), 
+                                         .CONFIG_ETH(XLXN_967[31:0]), 
+                                         .DATA_WB_I(XLXN_868[23:0]), 
+                                         .PHY_RX(PHY_RX[7:0]), 
+                                         .PHY_RXD2(PHY_RXD2[7:0]), 
+                                         .RESET(XLXN_649), 
+                                         .RX_CLK(XLXN_709), 
+                                         .RX_CLK2(RX_CLK2), 
+                                         .RX_DV(RX_DV), 
+                                         .RX_DV2(RX_DV2), 
+                                         .ADDRESS(XLXN_673[13:0]), 
+                                         .ADD_WB(XLXN_865[7:0]), 
+                                         .BLINK_OUT(XLXN_969), 
+                                         .DATA(XLXN_674[23:0]), 
+                                         .DATA_GAMMA(XLXN_679[23:0]), 
+                                         .DATA_WB(XLXN_866[23:0]), 
+                                         .DB_1(), 
+                                         .DB2(), 
+                                         .DB3(), 
+                                         .DB4(), 
+                                         .DB5(), 
+                                         .DB6(), 
+                                         .DB7(), 
+                                         .DB8(), 
+                                         .DIMMER(XLXN_832[4:0]), 
+                                         .GTX_CLK(), 
+                                         .GTX_CLK2(), 
+                                         .PAGE(XLXN_695), 
+                                         .PHY_MDC(PHY_MDC), 
+                                         .PHY_MDIO(PHY_MDIO), 
+                                         .PHY_RESET(PHY_RESET), 
+                                         .PHY_TXD(PHY_TX[7:0]), 
+                                         .PHY_TXD2(PHY_TXD2[7:0]), 
+                                         .TX_EN(TX_EN), 
+                                         .TX_EN2(TX_EN2), 
+                                         .WB_EEP_WR(XLXN_882), 
+                                         .WE(XLXN_675), 
+                                         .WR_GAMMA(XLXN_833[0]), 
+                                         .WR_WB(XLXN_867));
+   GD_Drive_MUSER_GD_N_C_RP  G_DRIVEi (.ADD_WB(XLXN_865[7:0]), 
+                                      .CLK_FIBER(XLXN_709), 
+                                      .CLK_GD(XLXN_966), 
+                                      .CLK_PWM(XLXN_968), 
+                                      .CLK_125(XLXN_962), 
+                                      .CONFIG(XLXN_967[31:0]), 
+                                      .DATA_WB(XLXN_866[23:0]), 
+                                      .DIM(XLXN_832[4:0]), 
+                                      .display_ena(XLXN_969), 
+                                      .GAMMA(XLXN_679[23:0]), 
+                                      .PAGE_IN(XLXN_695), 
+                                      .RESET(XLXN_649), 
+                                      .VIDEO_ADD(XLXN_673[13:0]), 
+                                      .VIDEO_DATA(XLXN_674[23:0]), 
+                                      .VIDEO_WR(XLXN_675), 
+                                      .WB_WR_TRIG(XLXN_882), 
+                                      .WE_GAMMA(XLXN_833[0]), 
+                                      .WR_WB(XLXN_867), 
+                                      .B(SB[15:0]), 
+                                      .DATA_WB_o(XLXN_868[23:0]), 
+                                      .DB1(DB1), 
+                                      .DB2(DB2), 
+                                      .DB3(DB3), 
+                                      .DB4(), 
+                                      .EEPROM_WP(EEPROM_WP), 
+                                      .G(SG[15:0]), 
+                                      .HA(HA), 
+                                      .HB(HB), 
+                                      .HC(HC), 
+                                      .HD(HD), 
+                                      .i2c_ack_error(), 
+                                      .MODE_Flage(DB4), 
+                                      .OE(OE), 
+                                      .R(SR[15:0]), 
+                                      .SCLK(SCLK), 
+                                      .STR(STR), 
+                                      .SCL(EEPROM_SCL), 
+                                      .SDA(EEPROM_SDA));
+   MAIN_CONTROLLER  MAIN_CONTROLi (.CLK(XLXN_962), 
+                                  .DIP_SW1(DIP_SW1[2:0]), 
+                                  .DIP_SW2(DIP_SW_BUF[7:0]), 
+                                  .DIP_SW3(DIP_SW_SEL[7:0]), 
+                                  .PAGE(XLXN_695), 
+                                  .RESET(XLXN_649), 
+                                  .TEMPIN(XLXN_467[7:0]), 
+                                  .CONFIG1(), 
+                                  .CONFIG2(XLXN_967[31:0]), 
+                                  .DIGIT(DIGIT[2:0]), 
+                                  .DOUT(DOUT_SEG[7:0]), 
+                                  .FAN_OUT(FAN_OUT), 
+                                  .LED_FM(LED_RX), 
+                                  .LED_OS(LED_OS), 
+                                  .ONOFF_OUT(), 
+                                  .Watchdog_trig_o(Watchdog));
+   TEMP_1820  temp_1820reader_i (.CLK(XLXN_962), 
+                                .RESET(XLXN_649), 
+                                .DATA_OUT(XLXN_467[7:0]), 
+                                .OW(TEMPIO));
+   BUFG  XLXI_36 (.I(RX_CLK), 
+                 .O(XLXN_709));
+   BUFG  XLXI_40 (.I(XLXN_962), 
+                 .O(GTX_CLK));
+   BUFG  XLXI_55 (.I(XLXN_962), 
+                 .O(GTX_CLK2));
+endmodule

@@ -1,0 +1,302 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ETH_Drive.vf
+// /___/   /\     Timestamp : 05/19/2014 11:57:41
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ETH_Drive.vf -w D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/ETH_Drive.sch
+//Design Name: ETH_Drive
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FIFO_GTX_SCH_MUSER_ETH_Drive(DIN, 
+                                    RD_CLK, 
+                                    RD_EN, 
+                                    RESET, 
+                                    WR_CLK, 
+                                    WR_EN, 
+                                    DOUT, 
+                                    RD_COUNT, 
+                                    RD_EMPTY, 
+                                    WR_FULL);
+
+    input [8:0] DIN;
+    input RD_CLK;
+    input RD_EN;
+    input RESET;
+    input WR_CLK;
+    input WR_EN;
+   output [8:0] DOUT;
+   output [10:0] RD_COUNT;
+   output RD_EMPTY;
+   output WR_FULL;
+   
+   
+   FIFO_GTX  XLXI_1 (.din(DIN[8:0]), 
+                    .rd_clk(RD_CLK), 
+                    .rd_en(RD_EN), 
+                    .rst(RESET), 
+                    .wr_clk(WR_CLK), 
+                    .wr_en(WR_EN), 
+                    .dout(DOUT[8:0]), 
+                    .empty(RD_EMPTY), 
+                    .full(WR_FULL), 
+                    .rd_data_count(RD_COUNT[10:0]));
+endmodule
+`timescale 1ns / 1ps
+
+module ETH_Drive(CLK_125M, 
+                 CONFIG_ETH, 
+                 DATA_WB_I, 
+                 PHY_RX, 
+                 PHY_RXD2, 
+                 RESET, 
+                 RX_CLK, 
+                 RX_CLK2, 
+                 RX_DV, 
+                 RX_DV2, 
+                 ADDRESS, 
+                 ADD_WB, 
+                 BLINK_OUT, 
+                 DATA, 
+                 DATA_GAMMA, 
+                 DATA_WB, 
+                 DB_1, 
+                 DB2, 
+                 DB3, 
+                 DB4, 
+                 DB5, 
+                 DB6, 
+                 DB7, 
+                 DB8, 
+                 DIMMER, 
+                 GTX_CLK, 
+                 GTX_CLK2, 
+                 PAGE, 
+                 PHY_MDC, 
+                 PHY_MDIO, 
+                 PHY_RESET, 
+                 PHY_TXD, 
+                 PHY_TXD2, 
+                 TX_EN, 
+                 TX_EN2, 
+                 WB_EEP_WR, 
+                 WE, 
+                 WR_GAMMA, 
+                 WR_WB);
+
+    input CLK_125M;
+    input [31:0] CONFIG_ETH;
+    input [23:0] DATA_WB_I;
+    input [7:0] PHY_RX;
+    input [7:0] PHY_RXD2;
+    input RESET;
+    input RX_CLK;
+    input RX_CLK2;
+    input RX_DV;
+    input RX_DV2;
+   output [13:0] ADDRESS;
+   output [7:0] ADD_WB;
+   output BLINK_OUT;
+   output [23:0] DATA;
+   output [23:0] DATA_GAMMA;
+   output [23:0] DATA_WB;
+   output DB_1;
+   output DB2;
+   output DB3;
+   output DB4;
+   output DB5;
+   output DB6;
+   output DB7;
+   output DB8;
+   output [4:0] DIMMER;
+   output GTX_CLK;
+   output GTX_CLK2;
+   output PAGE;
+   output PHY_MDC;
+   output PHY_MDIO;
+   output PHY_RESET;
+   output [7:0] PHY_TXD;
+   output [7:0] PHY_TXD2;
+   output TX_EN;
+   output TX_EN2;
+   output WB_EEP_WR;
+   output WE;
+   output WR_GAMMA;
+   output WR_WB;
+   
+   wire DB1;
+   wire [8:0] XLXN_1;
+   wire [8:0] XLXN_29;
+   wire [8:0] XLXN_202;
+   wire [8:0] XLXN_232;
+   wire [8:0] XLXN_237;
+   wire [10:0] XLXN_249;
+   wire [10:0] XLXN_250;
+   wire XLXN_253;
+   wire XLXN_254;
+   wire XLXN_283;
+   wire XLXN_284;
+   wire XLXN_285;
+   wire XLXN_286;
+   wire XLXN_287;
+   wire XLXN_292;
+   wire XLXN_345;
+   wire XLXN_370;
+   wire XLXN_371;
+   wire XLXN_372;
+   wire XLXN_375;
+   wire XLXN_389;
+   wire TX_EN_DUMMY;
+   wire PHY_MDIO_DUMMY;
+   wire PHY_MDC_DUMMY;
+   
+   assign PHY_MDC = PHY_MDC_DUMMY;
+   assign PHY_MDIO = PHY_MDIO_DUMMY;
+   assign TX_EN = TX_EN_DUMMY;
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) ETH_CLK_MUXi (.I0(RX_CLK), 
+                           .I1(RX_CLK2), 
+                           .S(XLXN_370), 
+                           .O(DB1));
+   ETH_RX_BP  ETH_RXbi (.CLK(CLK_125M), 
+                       .PHY_RXD(PHY_RXD2[7:0]), 
+                       .RESET(RESET), 
+                       .RX_CLK(XLXN_292), 
+                       .RX_DV(RX_DV2), 
+                       .DATA_OUT_PHY(XLXN_232[8:0]), 
+                       .RX_ACTIVE(XLXN_370), 
+                       .WR_PHY(XLXN_389));
+   ETH_RX  ETH_RXi (.CLK(CLK_125M), 
+                   .CONFIG_REG(CONFIG_ETH[31:0]), 
+                   .DATA_IN_WB(DATA_WB_I[23:0]), 
+                   .PHY_RXD(PHY_RX[7:0]), 
+                   .RESET(RESET), 
+                   .RX_ACTIVE_IN(XLXN_370), 
+                   .RX_CLK(RX_CLK), 
+                   .RX_DV(RX_DV), 
+                   .ADDRESS(ADDRESS[13:0]), 
+                   .ADD_WB(ADD_WB[7:0]), 
+                   .BLINK_OUT(BLINK_OUT), 
+                   .DATA(DATA[23:0]), 
+                   .DATA_GAMMA(DATA_GAMMA[23:0]), 
+                   .DATA_OUT_PHY(XLXN_202[8:0]), 
+                   .DATA_OUT_WB(DATA_WB[23:0]), 
+                   .DEBUG1(), 
+                   .DEBUG2(), 
+                   .DEBUG3(), 
+                   .DEBUG4(), 
+                   .DEBUG5(DB5), 
+                   .DEBUG6(DB6), 
+                   .DEBUG7(DB7), 
+                   .DEBUG8(), 
+                   .DIMMER(DIMMER[4:0]), 
+                   .LED_ERROR_TG(), 
+                   .LED_OS(), 
+                   .PAGE(PAGE), 
+                   .PHY_A_RESET(XLXN_371), 
+                   .PHY_B_RESET(XLXN_372), 
+                   .PHY_RESET(PHY_RESET), 
+                   .RST_WB_BRAM(), 
+                   .WB_EEP_WR(WB_EEP_WR), 
+                   .WE(WE), 
+                   .WR_GAMMA(WR_GAMMA), 
+                   .WR_PHY_1(XLXN_375), 
+                   .WR_PHY_2(XLXN_345), 
+                   .WR_WB(WR_WB));
+   ETH_SELECT_LOOP  ETH_SELECT_LOOPi (.DIN1(XLXN_202[8:0]), 
+                                     .DIN2(XLXN_232[8:0]), 
+                                     .ENABLE1(XLXN_370), 
+                                     .WR_EN1(XLXN_375), 
+                                     .WR_EN2(XLXN_389), 
+                                     .DB(), 
+                                     .ENABLE(), 
+                                     .ODIN1(XLXN_237[8:0]), 
+                                     .WR_ENO(XLXN_283));
+   ETH_TX  ETH_TX1i (.CLK(CLK_125M), 
+                    .DATA_IN(XLXN_1[8:0]), 
+                    .RD_COUNT(XLXN_249[10:0]), 
+                    .RESET(RESET), 
+                    .DEBUG1(), 
+                    .DEBUG2(), 
+                    .DEBUG3(), 
+                    .DEBUG4(), 
+                    .GTX_CLK(GTX_CLK), 
+                    .PHY_MDC(), 
+                    .PHY_MDIO(), 
+                    .PHY_TXD(PHY_TXD[7:0]), 
+                    .RD_EN(XLXN_253), 
+                    .TX_EN(TX_EN_DUMMY));
+   ETH_TX  ETH_TX2i (.CLK(CLK_125M), 
+                    .DATA_IN(XLXN_29[8:0]), 
+                    .RD_COUNT(XLXN_250[10:0]), 
+                    .RESET(RESET), 
+                    .DEBUG1(), 
+                    .DEBUG2(), 
+                    .DEBUG3(), 
+                    .DEBUG4(), 
+                    .GTX_CLK(GTX_CLK2), 
+                    .PHY_MDC(DB8), 
+                    .PHY_MDIO(), 
+                    .PHY_TXD(PHY_TXD2[7:0]), 
+                    .RD_EN(XLXN_254), 
+                    .TX_EN(TX_EN2));
+   FIFO_GTX_SCH_MUSER_ETH_Drive  FIFO_ETH1i (.DIN(XLXN_237[8:0]), 
+                                            .RD_CLK(CLK_125M), 
+                                            .RD_EN(XLXN_253), 
+                                            .RESET(RESET), 
+                                            .WR_CLK(DB1), 
+                                            .WR_EN(XLXN_284), 
+                                            .DOUT(XLXN_1[8:0]), 
+                                            .RD_COUNT(XLXN_249[10:0]), 
+                                            .RD_EMPTY(), 
+                                            .WR_FULL(XLXN_285));
+   FIFO_GTX_SCH_MUSER_ETH_Drive  FIFO_ETH2i (.DIN(XLXN_202[8:0]), 
+                                            .RD_CLK(CLK_125M), 
+                                            .RD_EN(XLXN_254), 
+                                            .RESET(RESET), 
+                                            .WR_CLK(RX_CLK), 
+                                            .WR_EN(XLXN_287), 
+                                            .DOUT(XLXN_29[8:0]), 
+                                            .RD_COUNT(XLXN_250[10:0]), 
+                                            .RD_EMPTY(), 
+                                            .WR_FULL(XLXN_286));
+   AND2B1  XLXI_7 (.I0(XLXN_285), 
+                  .I1(XLXN_283), 
+                  .O(XLXN_284));
+   AND2B1  XLXI_8 (.I0(XLXN_286), 
+                  .I1(XLXN_345), 
+                  .O(XLXN_287));
+   BUFG  XLXI_36 (.I(RX_CLK2), 
+                 .O(XLXN_292));
+   BUF  XLXI_40 (.I(PHY_MDC_DUMMY), 
+                .O());
+   BUF  XLXI_42 (.I(PHY_MDIO_DUMMY), 
+                .O());
+   BUF  XLXI_43 (.I(XLXN_345), 
+                .O(DB2));
+   serial_management  XLXI_44 (.CLK(CLK_125M), 
+                              .CONFIG_REG(CONFIG_ETH[31:0]), 
+                              .PHY_RESET_A_in(XLXN_371), 
+                              .PHY_RESET_B_in(XLXN_372), 
+                              .MDC(PHY_MDC_DUMMY), 
+                              .MDIO(PHY_MDIO_DUMMY));
+   BUF  XLXI_45 (.I(TX_EN_DUMMY), 
+                .O());
+   BUF  XLXI_46 (.I(XLXN_389), 
+                .O(DB4));
+   BUF  XLXI_47 (.I(XLXN_375), 
+                .O(DB_1));
+   BUF  XLXI_50 (.I(RX_DV2), 
+                .O(DB3));
+endmodule

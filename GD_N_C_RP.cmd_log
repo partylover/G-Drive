@@ -1,0 +1,935 @@
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.xst" -ofn "D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.xst" -ofn "C:/Users/Administrator/Desktop/GD_N_C_RP/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1s/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.xst" -ofn "D:/FPGA_PROJECT_EDIT_FINAL/GD_N_C_RP_V1o/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1p/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 
+xst -intstyle ise -ifn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.xst" -ofn "D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc GD_N_GIGABIT_8P_C.ucf -p xc6slx16-ftg256-3 GD_N_C_RP.ngc GD_N_C_RP.ngd  
+map -intstyle ise -p xc6slx16-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o GD_N_C_RP_map.ncd GD_N_C_RP.ngd GD_N_C_RP.pcf 
+par -w -intstyle ise -ol high -mt 4 GD_N_C_RP_map.ncd GD_N_C_RP.ncd GD_N_C_RP.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GD_N_C_RP.twx GD_N_C_RP.ncd -o GD_N_C_RP.twr GD_N_C_RP.pcf -ucf GD_N_GIGABIT_8P_C.ucf 
+bitgen -intstyle ise -f GD_N_C_RP.ut GD_N_C_RP.ncd 

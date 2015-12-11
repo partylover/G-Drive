@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ee_prom_control">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2014-5-15T5:38:48</timestamp>
+    <pin polarity="Input" x="592" y="-304" name="BUSY_I2C_i" />
+    <pin polarity="Input" x="96" y="-128" name="CLK" />
+    <pin polarity="Input" x="96" y="-512" name="driver_busy" />
+    <pin polarity="Input" x="96" y="-80" name="reset" />
+    <pin polarity="Input" x="96" y="-224" name="WB_WR_TRIG" />
+    <pin polarity="Input" x="96" y="-320" name="DATA_IN_WB_RAM(23:0)" />
+    <pin polarity="Input" x="96" y="-544" name="ADD_IN_WB_RAM(7:0)" />
+    <pin polarity="Input" x="592" y="-272" name="DATA_I2C_i(7:0)" />
+    <pin polarity="Input" x="96" y="-64" name="Config_register(31:0)" />
+    <pin polarity="Output" x="592" y="-112" name="WR_RAM" />
+    <pin polarity="Output" x="592" y="-368" name="ENA_I2C_o" />
+    <pin polarity="Output" x="592" y="-336" name="RW_I2C_o" />
+    <pin polarity="Output" x="96" y="-480" name="ADD_BUS_BUSY" />
+    <pin polarity="Output" x="592" y="-560" name="DB1" />
+    <pin polarity="Output" x="592" y="-528" name="DB2" />
+    <pin polarity="Output" x="592" y="-496" name="DB3" />
+    <pin polarity="Output" x="592" y="-464" name="DB4" />
+    <pin polarity="Output" x="592" y="-48" name="EEPROM_WP" />
+    <pin polarity="Output" x="592" y="-176" name="DATA_OUT_WB_RAM(23:0)" />
+    <pin polarity="Output" x="592" y="-144" name="ADD_OUT_WB_RAM(7:0)" />
+    <pin polarity="Output" x="592" y="-432" name="ADD_I2C_o(6:0)" />
+    <pin polarity="Output" x="592" y="-400" name="DATA_I2C_o(7:0)" />
+    <pin polarity="Output" x="592" y="-592" name="BLINK_OUT" />
+    <graph>
+        <attrtext attrname="PinName" x="424" y="-300" type="pin BUSY_I2C_i" />
+        <attrtext attrname="PinName" x="168" y="-128" type="pin CLK" />
+        <attrtext attrname="PinName" x="168" y="-512" type="pin driver_busy" />
+        <attrtext attrname="PinName" x="168" y="-80" type="pin reset" />
+        <attrtext attrname="PinName" x="164" y="-224" type="pin WB_WR_TRIG" />
+        <attrtext attrname="PinName" x="168" y="-320" type="pin DATA_IN_WB_RAM(23:0)" />
+        <attrtext attrname="PinName" x="168" y="-544" type="pin ADD_IN_WB_RAM(7:0)" />
+        <attrtext attrname="PinName" x="396" y="-268" type="pin DATA_I2C_i(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="168" y="-64" type="pin Config_register(31:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-112" type="pin WR_RAM" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-368" type="pin ENA_I2C_o" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-336" type="pin RW_I2C_o" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="320" y="-480" type="pin ADD_BUS_BUSY" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-556" type="pin DB1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-528" type="pin DB2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-496" type="pin DB3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-464" type="pin DB4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-48" type="pin EEPROM_WP" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-176" type="pin DATA_OUT_WB_RAM(23:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-144" type="pin ADD_OUT_WB_RAM(7:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-432" type="pin ADD_I2C_o(6:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="520" y="-400" type="pin DATA_I2C_o(7:0)" />
+        <line x2="592" y1="-48" y2="-48" x1="528" />
+        <rect width="64" x="96" y="-76" height="24" />
+        <line x2="96" y1="-64" y2="-64" x1="160" />
+        <line x2="96" y1="-80" y2="-80" x1="160" />
+        <rect width="64" x="96" y="-332" height="24" />
+        <line x2="96" y1="-320" y2="-320" x1="160" />
+        <rect width="64" x="528" y="-188" height="24" />
+        <line x2="592" y1="-176" y2="-176" x1="528" />
+        <rect width="64" x="528" y="-156" height="24" />
+        <line x2="592" y1="-144" y2="-144" x1="528" />
+        <line x2="592" y1="-112" y2="-112" x1="528" />
+        <rect width="64" x="528" y="-284" height="24" />
+        <line x2="528" y1="-272" y2="-272" x1="592" />
+        <line x2="528" y1="-304" y2="-304" x1="592" />
+        <rect width="64" x="528" y="-444" height="24" />
+        <line x2="592" y1="-432" y2="-432" x1="528" />
+        <rect width="64" x="528" y="-412" height="24" />
+        <line x2="592" y1="-400" y2="-400" x1="528" />
+        <line x2="592" y1="-368" y2="-368" x1="528" />
+        <line x2="592" y1="-336" y2="-336" x1="528" />
+        <line x2="96" y1="-128" y2="-128" x1="160" />
+        <line x2="96" y1="-512" y2="-512" x1="160" />
+        <rect width="64" x="96" y="-556" height="24" />
+        <line x2="96" y1="-544" y2="-544" x1="160" />
+        <line x2="96" y1="-224" y2="-224" x1="160" />
+        <line x2="160" y1="-480" y2="-480" x1="96" />
+        <line x2="592" y1="-464" y2="-464" x1="528" />
+        <line x2="592" y1="-496" y2="-496" x1="528" />
+        <line x2="592" y1="-528" y2="-528" x1="528" />
+        <line x2="592" y1="-560" y2="-560" x1="528" />
+        <rect width="368" x="160" y="-616" height="596" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="520" y="-592" type="pin BLINK_OUT" />
+        <line x2="592" y1="-592" y2="-592" x1="528" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="348" y="-620" type="symbol" />
+    </graph>
+</symbol>

@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.68d
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.68d
+DATE            09/05/2013 - 19:15
+SOURCE          D:\FPGA_project\NEWVERSION_GEN4\GD_N_C_RP\GD_N_C_P16_16x16_V1a_test3_scope.mcs
+DEVICE          2048K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x1921968E
+START_ADDRESS   0x00000000 END_ADDRESS 0x0007176F DIRECTION_UP   "D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/gd_n_c_rp.bit" 6slx16ftg256

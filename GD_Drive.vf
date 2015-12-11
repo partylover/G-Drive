@@ -1,0 +1,388 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.6
+//  \   \         Application : sch2hdl
+//  /   /         Filename : GD_Drive.vf
+// /___/   /\     Timestamp : 10/07/2015 17:10:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir -intstyle ise -family spartan6 -verilog D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.vf -w D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.sch
+//Design Name: GD_Drive
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sch_frame_buffer_MUSER_GD_Drive(ADD_A, 
+                                       ADD_B, 
+                                       CLK_A, 
+                                       CLK_B, 
+                                       Config_register, 
+                                       DATA_IN_A, 
+                                       WR_A, 
+                                       DOUT_1, 
+                                       DOUT_2);
+
+    input [13:0] ADD_A;
+    input [12:0] ADD_B;
+    input CLK_A;
+    input CLK_B;
+    input [31:0] Config_register;
+    input [23:0] DATA_IN_A;
+    input WR_A;
+   output [23:0] DOUT_1;
+   output [23:0] DOUT_2;
+   
+   wire [12:0] XLXN_15;
+   wire [0:0] XLXN_16;
+   wire [12:0] XLXN_17;
+   wire [0:0] XLXN_18;
+   
+   frame_buff_mem  frame_buff_memi (.addra(XLXN_15[12:0]), 
+                                   .addrb(ADD_B[12:0]), 
+                                   .clka(CLK_A), 
+                                   .clkb(CLK_B), 
+                                   .dina(DATA_IN_A[23:0]), 
+                                   .wea(XLXN_16[0]), 
+                                   .doutb(DOUT_1[23:0]));
+   frame_buff_mem  XLXI_2 (.addra(XLXN_17[12:0]), 
+                          .addrb(ADD_B[12:0]), 
+                          .clka(CLK_A), 
+                          .clkb(CLK_B), 
+                          .dina(DATA_IN_A[23:0]), 
+                          .wea(XLXN_18[0]), 
+                          .doutb(DOUT_2[23:0]));
+   frame_buffer_add_mux  XLXI_3 (.ADD_IN(ADD_A[13:0]), 
+                                .CLK(CLK_A), 
+                                .Config_register(Config_register[31:0]), 
+                                .WR_IN(WR_A), 
+                                .ADD_OUT_1(XLXN_15[12:0]), 
+                                .ADD_OUT_2(XLXN_17[12:0]), 
+                                .WR_OUT_1(XLXN_16[0]), 
+                                .WR_OUT_2(XLXN_18[0]));
+endmodule
+`timescale 1ns / 1ps
+
+module RGB_GAMMA_SCH_MUSER_GD_Drive(CLK, 
+                                    CLK_IN, 
+                                    GAMMA, 
+                                    RGB_IN, 
+                                    WE, 
+                                    RGB_OUT);
+
+    input CLK;
+    input CLK_IN;
+    input [23:0] GAMMA;
+    input [23:0] RGB_IN;
+    input [0:0] WE;
+   output [47:0] RGB_OUT;
+   
+   
+   core_gamma_table  gamma_table_B_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[7:0]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[15:0]));
+   core_gamma_table  gamma_table_G_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[15:8]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[31:16]));
+   core_gamma_table  gamma_table_R_i (.addra(GAMMA[23:16]), 
+                                     .addrb(RGB_IN[23:16]), 
+                                     .clka(CLK_IN), 
+                                     .clkb(CLK), 
+                                     .dina(GAMMA[15:0]), 
+                                     .wea(WE[0]), 
+                                     .doutb(RGB_OUT[47:32]));
+endmodule
+`timescale 1ns / 1ps
+
+module GD_Drive(ADD_WB, 
+                CLK_FIBER, 
+                CLK_GD, 
+                CLK_PWM, 
+                CLK_125, 
+                CONFIG, 
+                DATA_WB, 
+                DIM, 
+                display_ena, 
+                GAMMA, 
+                PAGE_IN, 
+                RESET, 
+                VIDEO_ADD, 
+                VIDEO_DATA, 
+                VIDEO_WR, 
+                WB_WR_TRIG, 
+                WE_GAMMA, 
+                WR_WB, 
+                B, 
+                DATA_WB_o, 
+                DB1, 
+                DB2, 
+                DB3, 
+                DB4, 
+                EEPROM_WP, 
+                G, 
+                HA, 
+                HB, 
+                HC, 
+                HD, 
+                i2c_ack_error, 
+                MODE_Flage, 
+                OE, 
+                R, 
+                SCLK, 
+                STR, 
+                SCL, 
+                SDA);
+
+    input [7:0] ADD_WB;
+    input CLK_FIBER;
+    input CLK_GD;
+    input CLK_PWM;
+    input CLK_125;
+    input [31:0] CONFIG;
+    input [23:0] DATA_WB;
+    input [4:0] DIM;
+    input display_ena;
+    input [23:0] GAMMA;
+    input PAGE_IN;
+    input RESET;
+    input [13:0] VIDEO_ADD;
+    input [23:0] VIDEO_DATA;
+    input VIDEO_WR;
+    input WB_WR_TRIG;
+    input [0:0] WE_GAMMA;
+    input WR_WB;
+   output [15:0] B;
+   output [23:0] DATA_WB_o;
+   output DB1;
+   output DB2;
+   output DB3;
+   output DB4;
+   output EEPROM_WP;
+   output [15:0] G;
+   output HA;
+   output HB;
+   output HC;
+   output HD;
+   output i2c_ack_error;
+   output MODE_Flage;
+   output OE;
+   output [15:0] R;
+   output SCLK;
+   output STR;
+    inout SCL;
+    inout SDA;
+   
+   wire [13:0] XLXN_1;
+   wire [23:0] XLXN_2;
+   wire [23:0] XLXN_4;
+   wire [12:0] XLXN_6;
+   wire [7:0] XLXN_185;
+   wire [3:0] XLXN_186;
+   wire XLXN_187;
+   wire XLXN_188;
+   wire [47:0] XLXN_422;
+   wire XLXN_425;
+   wire [47:0] XLXN_426;
+   wire XLXN_487;
+   wire XLXN_488;
+   wire [23:0] XLXN_876;
+   wire [6:0] XLXN_885;
+   wire [7:0] XLXN_886;
+   wire XLXN_887;
+   wire XLXN_888;
+   wire [7:0] XLXN_890;
+   wire [23:0] XLXN_891;
+   wire [7:0] XLXN_892;
+   wire [0:0] XLXN_893;
+   wire [7:0] XLXN_899;
+   wire XLXN_900;
+   wire XLXN_901;
+   wire XLXN_1008;
+   wire [47:0] XLXN_1016;
+   wire [0:0] XLXN_1017;
+   wire [23:0] XLXN_1018;
+   wire XLXN_1021;
+   wire XLXN_1022;
+   wire [4:0] XLXN_1023;
+   wire [4:0] XLXN_1024;
+   wire XLXN_1025;
+   
+   BUFGMUX_1 #( .CLK_SEL_TYPE("SYNC") ) CLK_GD_MUXi (.I0(CLK_FIBER), 
+                          .I1(CLK_125), 
+                          .S(XLXN_488), 
+                          .O(XLXN_487));
+   Driver_shift_register  Driver_shift_register_i (.CLK(CLK_GD), 
+                                                  .CONFIG_EN(XLXN_188), 
+                                                  
+         .Config_register(CONFIG[31:0]), 
+                                                  .DATA(XLXN_185[7:0]), 
+                                                  .DATA_CONFIG(XLXN_426[47:0]), 
+                                                  .DIMMER(XLXN_1023[4:0]), 
+                                                  .display_enable(XLXN_187), 
+                                                  
+         .display_enable1(display_ena), 
+                                                  .display_enable2(XLXN_1022), 
+                                                  .MODE(XLXN_1025), 
+                                                  .MODE_PWM(XLXN_1021), 
+                                                  .RGB(XLXN_1016[47:0]), 
+                                                  .RGB_B(XLXN_422[47:0]), 
+                                                  .ROW(XLXN_186[3:0]), 
+                                                  .B_o(B[15:0]), 
+                                                  .G_o(G[15:0]), 
+                                                  .R_o(R[15:0]));
+   ee_prom_control  ee_prom_control_i (.ADD_IN_WB_RAM(XLXN_899[7:0]), 
+                                      .BUSY_I2C_i(XLXN_1008), 
+                                      .CLK(CLK_GD), 
+                                      .Config_register(CONFIG[31:0]), 
+                                      .DATA_IN_WB_RAM(XLXN_876[23:0]), 
+                                      .DATA_I2C_i(XLXN_890[7:0]), 
+                                      .driver_busy(XLXN_900), 
+                                      .reset(RESET), 
+                                      .WB_WR_TRIG(WB_WR_TRIG), 
+                                      .ADD_BUS_BUSY(XLXN_901), 
+                                      .ADD_I2C_o(XLXN_885[6:0]), 
+                                      .ADD_OUT_WB_RAM(XLXN_892[7:0]), 
+                                      .BLINK_OUT(XLXN_1022), 
+                                      .DATA_I2C_o(XLXN_886[7:0]), 
+                                      .DATA_OUT_WB_RAM(XLXN_891[23:0]), 
+                                      .DB1(DB1), 
+                                      .DB2(DB2), 
+                                      .DB3(DB3), 
+                                      .DB4(DB4), 
+                                      .EEPROM_WP(EEPROM_WP), 
+                                      .ENA_I2C_o(XLXN_887), 
+                                      .RW_I2C_o(XLXN_888), 
+                                      .WR_RAM(XLXN_893[0]));
+   g_drive_controller_shif_register  g_drive_controller_shif_register_i 
+         (.ADD_BUS_WB_BUSY(XLXN_901), 
+                                                                        
+         .CLK(CLK_GD), 
+                                                                        
+         .CLK_PWM(CLK_PWM), 
+                                                                        
+         .Config_register(CONFIG[31:0]), 
+                                                                        
+         .DATA_WB(XLXN_876[23:0]), 
+                                                                        
+         .DIMMER(XLXN_1024[4:0]), 
+                                                                        
+         .PAGE(XLXN_425), 
+                                                                        
+         .RESET(RESET), 
+                                                                        
+         .ADDRESS(XLXN_6[12:0]), 
+                                                                        
+         .ADDRESS_WB(XLXN_899[7:0]), 
+                                                                        
+         .CLK_OUT1(SCLK), 
+                                                                        
+         .CLK_OUT2(), 
+                                                                        
+         .config_data(XLXN_426[47:0]), 
+                                                                        
+         .config_enable(XLXN_188), 
+                                                                        
+         .DATA(XLXN_185[7:0]), 
+                                                                        
+         .DIMMER_o(XLXN_1023[4:0]), 
+                                                                        
+         .display_enable(XLXN_187), 
+                                                                        
+         .HA(HA), 
+                                                                        
+         .HB(HB), 
+                                                                        
+         .HC(HC), 
+                                                                        
+         .HD(HD), 
+                                                                        
+         .MODE(XLXN_1025), 
+                                                                        
+         .MODE_PWM(XLXN_1021), 
+                                                                        
+         .OE1(OE), 
+                                                                        .OE2(), 
+                                                                        
+         .ROW_select(XLXN_186[3:0]), 
+                                                                        
+         .SEND_WB_BUSY(XLXN_900), 
+                                                                        
+         .STROBE1(STR), 
+                                                                        
+         .STROBE2());
+   i2c_master  i2c_master_i (.addr(XLXN_885[6:0]), 
+                            .clk(CLK_GD), 
+                            .data_wr(XLXN_886[7:0]), 
+                            .ena(XLXN_887), 
+                            .reset_n(RESET), 
+                            .rw(XLXN_888), 
+                            .ack_error(i2c_ack_error), 
+                            .busy(XLXN_1008), 
+                            .data_rd(XLXN_890[7:0]), 
+                            .scl(SCL), 
+                            .sda(SDA));
+   RGB_GAMMA_SCH_MUSER_GD_Drive  RGB_GAMMA_SCH1_i (.CLK(CLK_GD), 
+                                                  .CLK_IN(CLK_FIBER), 
+                                                  .GAMMA(GAMMA[23:0]), 
+                                                  .RGB_IN(XLXN_1018[23:0]), 
+                                                  .WE(WE_GAMMA[0]), 
+                                                  .RGB_OUT(XLXN_1016[47:0]));
+   RGB_GAMMA_SCH_MUSER_GD_Drive  RGB_GAMMA_SCH2_i (.CLK(CLK_GD), 
+                                                  .CLK_IN(CLK_FIBER), 
+                                                  .GAMMA(GAMMA[23:0]), 
+                                                  .RGB_IN(XLXN_4[23:0]), 
+                                                  .WE(WE_GAMMA[0]), 
+                                                  .RGB_OUT(XLXN_422[47:0]));
+   sch_frame_buffer_MUSER_GD_Drive  sch_frame_buffer_i (.ADD_A(XLXN_1[13:0]), 
+                                                       .ADD_B(XLXN_6[12:0]), 
+                                                       .CLK_A(XLXN_487), 
+                                                       .CLK_B(CLK_GD), 
+                                                       
+         .Config_register(CONFIG[31:0]), 
+                                                       
+         .DATA_IN_A(XLXN_2[23:0]), 
+                                                       .WR_A(XLXN_1017[0]), 
+                                                       
+         .DOUT_1(XLXN_1018[23:0]), 
+                                                       .DOUT_2(XLXN_4[23:0]));
+   TEST_MODE  TEST_MODEi (.ACTIVE_IN(PAGE_IN), 
+                         .ADD_IN(VIDEO_ADD[13:0]), 
+                         .CLK(CLK_125), 
+                         .Config_register(CONFIG[31:0]), 
+                         .DATA_IN(VIDEO_DATA[23:0]), 
+                         .DIM_IN(DIM[4:0]), 
+                         .WE_IN(VIDEO_WR), 
+                         .ACTIVE_OUT(XLXN_425), 
+                         .ADD_OUT(XLXN_1[13:0]), 
+                         .DATA_OUT(XLXN_2[23:0]), 
+                         .DIM_O(XLXN_1024[4:0]), 
+                         .select_clk(XLXN_488), 
+                         .WE_OUT(XLXN_1017[0]));
+   core_wb_ram  WB_RAMi (.addra(ADD_WB[7:0]), 
+                        .addrb(XLXN_892[7:0]), 
+                        .clka(CLK_FIBER), 
+                        .clkb(CLK_GD), 
+                        .dina(DATA_WB[23:0]), 
+                        .dinb(XLXN_891[23:0]), 
+                        .wea(WR_WB), 
+                        .web(XLXN_893[0]), 
+                        .douta(DATA_WB_o[23:0]), 
+                        .doutb(XLXN_876[23:0]));
+   BUF  XLXI_1 (.I(XLXN_1025), 
+               .O(MODE_Flage));
+endmodule

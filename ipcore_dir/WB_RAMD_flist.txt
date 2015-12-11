@@ -1,0 +1,16 @@
+# Output products list for <WB_RAMD>
+WB_RAMD.asy
+WB_RAMD.gise
+WB_RAMD.ngc
+WB_RAMD.sym
+WB_RAMD.v
+WB_RAMD.veo
+WB_RAMD.xco
+WB_RAMD.xise
+WB_RAMD\doc\blk_mem_gen_ds512.pdf
+WB_RAMD\doc\blk_mem_gen_v6_1_vinfo.html
+WB_RAMD_flist.txt
+WB_RAMD_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt

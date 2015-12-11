@@ -1,0 +1,7 @@
+MODULE RGB_GAMMA_SCH
+	SUBMODULE core_gamma_table
+		INSTANCE gamma_table_B_i
+	SUBMODULE core_gamma_table
+		INSTANCE gamma_table_G_i
+	SUBMODULE core_gamma_table
+		INSTANCE gamma_table_R_i

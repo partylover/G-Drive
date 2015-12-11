@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ETH_TX">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-9-11T6:36:49</timestamp>
+    <pin polarity="Input" x="0" y="-512" name="CLK" />
+    <pin polarity="Input" x="0" y="-480" name="RESET" />
+    <pin polarity="Input" x="0" y="-384" name="DATA_IN(8:0)" />
+    <pin polarity="Input" x="0" y="-352" name="RD_COUNT(10:0)" />
+    <pin polarity="Output" x="464" y="-528" name="GTX_CLK" />
+    <pin polarity="Output" x="464" y="-464" name="TX_EN" />
+    <pin polarity="Output" x="464" y="-192" name="PHY_MDC" />
+    <pin polarity="Output" x="464" y="-160" name="PHY_MDIO" />
+    <pin polarity="Output" x="0" y="-320" name="RD_EN" />
+    <pin polarity="Output" x="464" y="-320" name="DEBUG1" />
+    <pin polarity="Output" x="464" y="-288" name="DEBUG2" />
+    <pin polarity="Output" x="464" y="-256" name="DEBUG3" />
+    <pin polarity="Output" x="464" y="-224" name="DEBUG4" />
+    <pin polarity="Output" x="464" y="-496" name="PHY_TXD(7:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="232" y="-584" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-512" type="pin CLK" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin RESET" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-384" type="pin DATA_IN(8:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin RD_COUNT(10:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-528" type="pin GTX_CLK" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-464" type="pin TX_EN" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-192" type="pin PHY_MDC" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-160" type="pin PHY_MDIO" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="160" y="-320" type="pin RD_EN" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-320" type="pin DEBUG1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-288" type="pin DEBUG2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-256" type="pin DEBUG3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-224" type="pin DEBUG4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-496" type="pin PHY_TXD(7:0)" />
+        <line x2="464" y1="-192" y2="-192" x1="400" />
+        <line x2="464" y1="-160" y2="-160" x1="400" />
+        <rect width="64" x="400" y="-508" height="24" />
+        <line x2="464" y1="-496" y2="-496" x1="400" />
+        <line x2="464" y1="-528" y2="-528" x1="400" />
+        <line x2="464" y1="-464" y2="-464" x1="400" />
+        <line x2="464" y1="-288" y2="-288" x1="400" />
+        <line x2="464" y1="-256" y2="-256" x1="400" />
+        <line x2="464" y1="-224" y2="-224" x1="400" />
+        <line x2="464" y1="-320" y2="-320" x1="400" />
+        <line x2="0" y1="-512" y2="-512" x1="64" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <rect width="64" x="0" y="-396" height="24" />
+        <line x2="0" y1="-384" y2="-384" x1="64" />
+        <rect width="64" x="0" y="-364" height="24" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <rect width="336" x="64" y="-576" height="472" />
+        <line x2="64" y1="-320" y2="-320" x1="0" />
+    </graph>
+</symbol>

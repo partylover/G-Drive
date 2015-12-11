@@ -1,0 +1,14 @@
+Storage Target: SPI Flash Single FPGA
+16M
+FF
+GD_N_C_RP_V1q
+D:\FPGA_Project\G_Drive_Ch\GD_N_C_RP_V1p/
+
+MCS
+No
+CS
+No
+
+No
+CS
+No

@@ -1,0 +1,7 @@
+MODULE sch_frame_buffer
+	SUBMODULE frame_buff_mem
+		INSTANCE XLXI_2
+	SUBMODULE frame_buff_mem
+		INSTANCE frame_buff_memi
+	SUBMODULE frame_buffer_add_mux
+		INSTANCE XLXI_3

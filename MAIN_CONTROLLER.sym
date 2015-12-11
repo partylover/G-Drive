@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MAIN_CONTROLLER">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-11-22T11:6:18</timestamp>
+    <pin polarity="Input" x="0" y="-320" name="CLK" />
+    <pin polarity="Input" x="0" y="-256" name="RESET" />
+    <pin polarity="Input" x="0" y="-720" name="PAGE" />
+    <pin polarity="Input" x="0" y="-672" name="DIP_SW1(2:0)" />
+    <pin polarity="Input" x="0" y="-640" name="DIP_SW2(7:0)" />
+    <pin polarity="Input" x="0" y="-608" name="DIP_SW3(7:0)" />
+    <pin polarity="Input" x="0" y="-528" name="TEMPIN(7:0)" />
+    <pin polarity="Output" x="464" y="-448" name="LED_OS" />
+    <pin polarity="Output" x="464" y="-416" name="LED_FM" />
+    <pin polarity="Output" x="464" y="-336" name="FAN_OUT" />
+    <pin polarity="Output" x="464" y="-224" name="ONOFF_OUT" />
+    <pin polarity="Output" x="464" y="-192" name="Watchdog_trig_o" />
+    <pin polarity="Output" x="464" y="-704" name="CONFIG1(31:0)" />
+    <pin polarity="Output" x="464" y="-736" name="CONFIG2(31:0)" />
+    <pin polarity="Output" x="464" y="-304" name="DOUT(7:0)" />
+    <pin polarity="Output" x="464" y="-272" name="DIGIT(2:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="232" y="-792" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin CLK" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin RESET" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-720" type="pin PAGE" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin DIP_SW1(2:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-640" type="pin DIP_SW2(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin DIP_SW3(7:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-528" type="pin TEMPIN(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-448" type="pin LED_OS" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-416" type="pin LED_FM" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-336" type="pin FAN_OUT" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-224" type="pin ONOFF_OUT" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-192" type="pin Watchdog_trig_o" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-704" type="pin CONFIG1(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-736" type="pin CONFIG2(31:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-304" type="pin DOUT(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-272" type="pin DIGIT(2:0)" />
+        <line x2="464" y1="-192" y2="-192" x1="400" />
+        <rect width="64" x="0" y="-684" height="24" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <rect width="64" x="0" y="-652" height="24" />
+        <line x2="0" y1="-640" y2="-640" x1="64" />
+        <rect width="64" x="0" y="-620" height="24" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <rect width="64" x="0" y="-540" height="24" />
+        <line x2="0" y1="-528" y2="-528" x1="64" />
+        <line x2="464" y1="-336" y2="-336" x1="400" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <line x2="0" y1="-256" y2="-256" x1="64" />
+        <line x2="0" y1="-720" y2="-720" x1="64" />
+        <rect width="64" x="400" y="-316" height="24" />
+        <line x2="464" y1="-304" y2="-304" x1="400" />
+        <rect width="64" x="400" y="-284" height="24" />
+        <line x2="464" y1="-272" y2="-272" x1="400" />
+        <line x2="464" y1="-224" y2="-224" x1="400" />
+        <line x2="464" y1="-448" y2="-448" x1="400" />
+        <line x2="464" y1="-416" y2="-416" x1="400" />
+        <rect width="64" x="400" y="-716" height="24" />
+        <line x2="464" y1="-704" y2="-704" x1="400" />
+        <rect width="64" x="400" y="-748" height="24" />
+        <line x2="464" y1="-736" y2="-736" x1="400" />
+        <rect width="336" x="64" y="-760" height="604" />
+    </graph>
+</symbol>

@@ -1,0 +1,6 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym GD_Drive D:/FPGA_project/NEWVERSION/GD_N_C_RP/GD_Drive.sch D:/FPGA_project/NEWVERSION/GD_N_C_RP/GD_Drive.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym GD_Drive D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sch D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym GD_Drive D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sch D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym GD_Drive D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sch D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/GD_Drive.sym 
+sch2hdl -sympath D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir -intstyle ise -family spartan6 -verilog GD_Drive_drc.vf -w D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym GD_Drive D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.sch D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.sym 

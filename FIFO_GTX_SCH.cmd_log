@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym FIFO_GTX_SCH D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/FIFO_GTX_SCH.sch D:/FPGA_project/NEWVERSION_GEN4/GD_N_C_RP/FIFO_GTX_SCH.sym 

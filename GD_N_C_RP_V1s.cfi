@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.68d
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.68d
+DATE            07/17/2014 - 08:41
+SOURCE          C:\Users\Administrator\Desktop\GD_N_C_RP\GD_N_C_RP_V1s.mcs
+DEVICE          2048K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x192C2227
+START_ADDRESS   0x00000000 END_ADDRESS 0x00071883 DIRECTION_UP   "C:/Users/Administrator/Desktop/GD_N_C_RP/gd_n_c_rp.bit" 6slx16ftg256

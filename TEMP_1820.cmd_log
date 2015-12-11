@@ -1,0 +1,2 @@
+vhdtdtfi -lib work TEMP_1820_.vhd -prj GD_N_C_RP -o TEMP_1820.spl -module TEMP_1820 -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w TEMP_1820.spl D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/TEMP_1820.sym 

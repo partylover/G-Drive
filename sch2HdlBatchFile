@@ -1,0 +1,3 @@
+sch2hdl,-sympath,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir,-intstyle,ise,-family,spartan6,-verilog,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.vf,-w,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.sch
+sch2hdl,-sympath,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir,-intstyle,ise,-family,spartan6,-verilog,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.vf,-w,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_Drive.sch
+sch2hdl,-sympath,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/ipcore_dir,-intstyle,ise,-family,spartan6,-verilog,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.vf,-w,D:/FPGA_Project/G_Drive_Ch/GD_N_C_RP_V1q/GD_N_C_RP.sch

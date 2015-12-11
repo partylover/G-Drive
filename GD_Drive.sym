@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="GD_Drive">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-10-7T10:9:10</timestamp>
+    <pin polarity="Input" x="0" y="-640" name="RESET" />
+    <pin polarity="Input" x="0" y="-1440" name="CLK_FIBER" />
+    <pin polarity="Input" x="0" y="-1408" name="VIDEO_ADD(13:0)" />
+    <pin polarity="Input" x="0" y="-1376" name="VIDEO_DATA(23:0)" />
+    <pin polarity="Input" x="0" y="-1344" name="VIDEO_WR" />
+    <pin polarity="Input" x="0" y="-1248" name="WE_GAMMA(0:0)" />
+    <pin polarity="Input" x="0" y="-1280" name="GAMMA(23:0)" />
+    <pin polarity="Input" x="0" y="-720" name="CLK_GD" />
+    <pin polarity="Input" x="0" y="-1216" name="DIM(4:0)" />
+    <pin polarity="Input" x="0" y="-992" name="PAGE_IN" />
+    <pin polarity="Input" x="0" y="-672" name="CLK_125" />
+    <pin polarity="Input" x="0" y="-1168" name="ADD_WB(7:0)" />
+    <pin polarity="Input" x="0" y="-1136" name="DATA_WB(23:0)" />
+    <pin polarity="Input" x="0" y="-1104" name="WR_WB" />
+    <pin polarity="Input" x="0" y="-400" name="CONFIG(31:0)" />
+    <pin polarity="Input" x="0" y="-1040" name="WB_WR_TRIG" />
+    <pin polarity="Input" x="0" y="-768" name="CLK_PWM" />
+    <pin polarity="Input" x="0" y="-960" name="display_ena" />
+    <pin polarity="BiDirectional" x="432" y="-208" name="SDA" />
+    <pin polarity="BiDirectional" x="432" y="-176" name="SCL" />
+    <pin polarity="Output" x="432" y="-496" name="SCLK" />
+    <pin polarity="Output" x="432" y="-464" name="STR" />
+    <pin polarity="Output" x="432" y="-432" name="OE" />
+    <pin polarity="Output" x="0" y="-1072" name="DATA_WB_o(23:0)" />
+    <pin polarity="Output" x="432" y="-368" name="HA" />
+    <pin polarity="Output" x="432" y="-336" name="HB" />
+    <pin polarity="Output" x="432" y="-304" name="HC" />
+    <pin polarity="Output" x="432" y="-272" name="HD" />
+    <pin polarity="Output" x="432" y="-112" name="DB1" />
+    <pin polarity="Output" x="432" y="-80" name="DB2" />
+    <pin polarity="Output" x="432" y="-48" name="DB3" />
+    <pin polarity="Output" x="432" y="-16" name="DB4" />
+    <pin polarity="Output" x="432" y="16" name="EEPROM_WP" />
+    <pin polarity="Output" x="432" y="-144" name="i2c_ack_error" />
+    <pin polarity="Output" x="432" y="-1680" name="R(15:0)" />
+    <pin polarity="Output" x="432" y="-1648" name="G(15:0)" />
+    <pin polarity="Output" x="432" y="-1616" name="B(15:0)" />
+    <pin polarity="Output" x="432" y="48" name="MODE_Flage" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="212" y="-1764" type="symbol" />
+        <attrtext attrname="PinName" x="72" y="-640" type="pin RESET" />
+        <attrtext attrname="PinName" x="72" y="-1440" type="pin CLK_FIBER" />
+        <attrtext attrname="PinName" x="72" y="-1408" type="pin VIDEO_ADD(13:0)" />
+        <attrtext attrname="PinName" x="72" y="-1376" type="pin VIDEO_DATA(23:0)" />
+        <attrtext attrname="PinName" x="72" y="-1344" type="pin VIDEO_WR" />
+        <attrtext attrname="PinName" x="72" y="-1248" type="pin WE_GAMMA(0:0)" />
+        <attrtext attrname="PinName" x="72" y="-1280" type="pin GAMMA(23:0)" />
+        <attrtext attrname="PinName" x="72" y="-720" type="pin CLK_GD" />
+        <attrtext attrname="PinName" x="72" y="-1216" type="pin DIM(4:0)" />
+        <attrtext attrname="PinName" x="72" y="-992" type="pin PAGE_IN" />
+        <attrtext attrname="PinName" x="72" y="-672" type="pin CLK_125" />
+        <attrtext attrname="PinName" x="72" y="-1168" type="pin ADD_WB(7:0)" />
+        <attrtext attrname="PinName" x="72" y="-1136" type="pin DATA_WB(23:0)" />
+        <attrtext attrname="PinName" x="72" y="-1104" type="pin WR_WB" />
+        <attrtext attrname="PinName" x="72" y="-400" type="pin CONFIG(31:0)" />
+        <attrtext attrname="PinName" x="72" y="-1040" type="pin WB_WR_TRIG" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-768" type="pin CLK_PWM" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-960" type="pin display_ena" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-208" type="pin SDA" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-176" type="pin SCL" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-496" type="pin SCLK" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-464" type="pin STR" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-432" type="pin OE" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="208" y="-1072" type="pin DATA_WB_o(23:0)" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-368" type="pin HA" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-336" type="pin HB" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-304" type="pin HC" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="360" y="-272" type="pin HD" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-112" type="pin DB1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-80" type="pin DB2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-48" type="pin DB3" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-16" type="pin DB4" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="16" type="pin EEPROM_WP" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-144" type="pin i2c_ack_error" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-1680" type="pin R(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-1648" type="pin G(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-1616" type="pin B(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="48" type="pin MODE_Flage" />
+        <line x2="432" y1="48" y2="48" x1="368" />
+        <line x2="432" y1="16" y2="16" x1="368" />
+        <line x2="432" y1="-112" y2="-112" x1="368" />
+        <line x2="432" y1="-80" y2="-80" x1="368" />
+        <line x2="432" y1="-48" y2="-48" x1="368" />
+        <line x2="432" y1="-16" y2="-16" x1="368" />
+        <line x2="432" y1="-144" y2="-144" x1="368" />
+        <line x2="432" y1="-368" y2="-368" x1="368" />
+        <line x2="432" y1="-336" y2="-336" x1="368" />
+        <line x2="432" y1="-304" y2="-304" x1="368" />
+        <line x2="432" y1="-272" y2="-272" x1="368" />
+        <rect width="64" x="0" y="-412" height="24" />
+        <line x2="0" y1="-400" y2="-400" x1="64" />
+        <rect width="64" x="0" y="-1388" height="24" />
+        <line x2="0" y1="-1376" y2="-1376" x1="64" />
+        <rect width="64" x="0" y="-1420" height="24" />
+        <line x2="0" y1="-1408" y2="-1408" x1="64" />
+        <line x2="0" y1="-1344" y2="-1344" x1="64" />
+        <line x2="0" y1="-1440" y2="-1440" x1="64" />
+        <rect width="64" x="0" y="-1292" height="24" />
+        <line x2="0" y1="-1280" y2="-1280" x1="64" />
+        <rect width="64" x="0" y="-1260" height="24" />
+        <line x2="0" y1="-1248" y2="-1248" x1="64" />
+        <rect width="64" x="0" y="-1228" height="24" />
+        <line x2="0" y1="-1216" y2="-1216" x1="64" />
+        <line x2="0" y1="-720" y2="-720" x1="64" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-640" y2="-640" x1="64" />
+        <rect width="64" x="0" y="-1180" height="24" />
+        <line x2="0" y1="-1168" y2="-1168" x1="64" />
+        <rect width="64" x="0" y="-1148" height="24" />
+        <line x2="0" y1="-1136" y2="-1136" x1="64" />
+        <line x2="0" y1="-1104" y2="-1104" x1="64" />
+        <line x2="432" y1="-496" y2="-496" x1="368" />
+        <line x2="432" y1="-464" y2="-464" x1="368" />
+        <line x2="432" y1="-432" y2="-432" x1="368" />
+        <rect width="64" x="0" y="-1084" height="24" />
+        <line x2="64" y1="-1072" y2="-1072" x1="0" />
+        <line x2="268" y1="-1312" y2="-1312" style="linewidth:W" x1="64" />
+        <line x2="268" y1="-1184" y2="-1184" style="linewidth:W" x1="64" />
+        <line x2="268" y1="-1456" y2="-1024" style="linewidth:W" x1="268" />
+        <line x2="268" y1="-1456" y2="-1456" style="linewidth:W" x1="64" />
+        <line x2="0" y1="-1040" y2="-1040" x1="64" />
+        <line x2="268" y1="-1024" y2="-1024" style="linewidth:W" x1="64" />
+        <line x2="432" y1="-208" y2="-208" x1="368" />
+        <line x2="432" y1="-176" y2="-176" x1="368" />
+        <line x2="0" y1="-992" y2="-992" x1="64" />
+        <rect width="64" x="368" y="-1692" height="24" />
+        <line x2="432" y1="-1680" y2="-1680" x1="368" />
+        <rect width="64" x="368" y="-1660" height="24" />
+        <line x2="432" y1="-1648" y2="-1648" x1="368" />
+        <rect width="64" x="368" y="-1628" height="24" />
+        <line x2="432" y1="-1616" y2="-1616" x1="368" />
+        <line x2="0" y1="-768" y2="-768" x1="64" />
+        <line x2="0" y1="-960" y2="-960" x1="64" />
+        <rect width="304" x="64" y="-1724" height="1832" />
+    </graph>
+</symbol>

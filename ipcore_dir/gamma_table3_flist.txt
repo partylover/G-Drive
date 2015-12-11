@@ -1,0 +1,18 @@
+# Output products list for <gamma_table3>
+_xmsgs\pn_parser.xmsgs
+gamma_table3.asy
+gamma_table3.gise
+gamma_table3.mif
+gamma_table3.ngc
+gamma_table3.sym
+gamma_table3.v
+gamma_table3.veo
+gamma_table3.xco
+gamma_table3.xise
+gamma_table3\blk_mem_gen_v7_2_readme.txt
+gamma_table3\doc\blk_mem_gen_v7_2_vinfo.html
+gamma_table3\doc\pg058-blk-mem-gen.pdf
+gamma_table3_flist.txt
+gamma_table3_synth.v
+gamma_table3_xmdf.tcl
+summary.log

@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym sch_frame_buffer D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/sch_frame_buffer.sch D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/sch_frame_buffer.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym sch_frame_buffer D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/sch_frame_buffer.sch D:/FPGA_project/NEWVERSION_GEN4/G-drive/GD_N_C_RP/sch_frame_buffer.sym 
